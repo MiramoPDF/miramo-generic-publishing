@@ -1,0 +1,429 @@
+<!ELEMENT helpserver_display (head, (folder | topic | pdf)?)>
+
+<!ELEMENT head (styles?, unittypes?)>
+
+<!ELEMENT styles (styledefault?, styleoverview?)>
+
+<!ELEMENT styledefault EMPTY>
+<!ATTLIST styledefault type ( P | C ) "P"
+                       level CDATA #IMPLIED
+                       listtype ( none | bullet | number | text ) "none"
+                       listlevel CDATA #IMPLIED
+                       color CDATA #IMPLIED
+                       background-color CDATA #IMPLIED
+                       background-color-transparency CDATA #IMPLIED
+                       fontname CDATA #IMPLIED
+                       fontsize CDATA #IMPLIED
+                       ul ( false | true ) "false"
+                       bo ( false | true ) "false"
+                       it ( false | true ) "false"
+                       align ( left | right | center ) "left"
+                       linespace ( 1 | 1.5 | 2 ) "1"
+                       widowcontrol ( false | true ) "true"
+                       keeplinestogether ( false | true ) "false"
+                       keepwithnext ( false | true ) "false"
+                       bordertype ( thin | thick | double ) "thin"
+                       bordertop ( false | true ) "false"
+                       borderbottom ( false | true ) "false"
+                       borderleft ( false | true ) "false"
+                       borderright ( false | true ) "false"
+                       bordershadow ( false | true ) "false"
+                       usepar-fontname ( false | true ) "false"
+                       usepar-fontsize ( false | true ) "false"
+                       usepar-fontweight ( false | true ) "false"
+                       usepar-fontstyle ( false | true ) "false"
+		               usepar-color ( false | true ) "false"
+		               usepar-background-color ( false | true ) "false"
+                       spacebefore CDATA #IMPLIED
+                       spaceafter CDATA #IMPLIED
+                       leftindent CDATA #IMPLIED
+                       rightindent CDATA #IMPLIED>
+<!ELEMENT styleoverview (styleelement*)>
+
+<!ELEMENT styleelement EMPTY>
+<!ATTLIST styleelement 
+                type ( P | C ) "P"
+                id CDATA #IMPLIED
+                des CDATA #IMPLIED
+                basestyle CDATA #IMPLIED
+                nextstyle CDATA #IMPLIED
+                listtype ( none | bullet | number | text ) "none"
+                listlevel CDATA #IMPLIED
+                color CDATA #IMPLIED
+                background-color CDATA #IMPLIED
+                background-color-transparency CDATA #IMPLIED
+                fontname CDATA #IMPLIED
+                fontsize CDATA #IMPLIED
+                ul ( false | true ) "false"
+                bo ( false | true ) "false"
+                it ( false | true ) "false"
+                align ( left | right | center ) #IMPLIED
+                linespace ( 1 | 1.5 | 2 ) #IMPLIED
+                widowcontrol ( false | true ) "true"
+                keeplinestogether ( false | true ) "false"
+                keepwithnext ( false | true ) "false"
+                bordertype ( thin | thick | double ) "thin"
+                bordertop ( false | true ) "false"
+                borderbottom ( false | true ) "false"
+                borderleft ( false | true ) "false"
+                borderright ( false | true ) "false"
+                bordershadow ( false | true ) "false"
+                usepar-fontname ( false | true ) "false"
+                usepar-fontsize ( false | true ) "false"
+                usepar-fontweight ( false | true ) "false"
+                usepar-fontstyle ( false | true ) "false"
+                usepar-color ( false | true ) "false"
+                usepar-background-color ( false | true ) "false"
+                spacebefore CDATA #IMPLIED
+                spaceafter CDATA #IMPLIED
+                leftindent CDATA #IMPLIED
+                rightindent CDATA #IMPLIED>
+<!ELEMENT unittypes (unittype*)>
+
+<!ELEMENT unittype (#PCDATA)>
+<!ATTLIST unittype id CDATA #REQUIRED>
+
+<!ELEMENT folder (title?, lines?)>
+<!ATTLIST folder key CDATA #IMPLIED
+                 hidedes ( false | true ) "false"
+                 pointername CDATA #IMPLIED
+                 resid CDATA #IMPLIED>
+                 
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT lines (folder | topic | pdf)*>
+
+<!ELEMENT pdf (title?)>
+<!ATTLIST pdf id CDATA #IMPLIED
+                 hidedes ( false | true ) "false"
+                 pointername CDATA #IMPLIED
+                 resid CDATA #IMPLIED
+                 autostart ( false | true ) "false">
+                
+<!ELEMENT topic (title?, units?)>
+<!ATTLIST topic key CDATA #IMPLIED
+                 hidedes ( false | true ) "false"
+                 pointername CDATA #IMPLIED
+                 resid CDATA #IMPLIED
+                 autostart ( false | true ) #IMPLIED>
+<!ELEMENT units (unit*)>
+
+<!ELEMENT unit (data)>
+<!ATTLIST unit type CDATA #IMPLIED>
+
+<!ELEMENT data (par*)>
+
+<!ELEMENT par (#PCDATA | style | br | image | select | hotspot | line | table | searchlauncher | languagelauncher | bookmark | url | file | video | audio | exit)*>
+<!ATTLIST par style CDATA #IMPLIED
+              align ( left | right | center ) #IMPLIED
+              linespace ( 1 | 1.5 | 2 ) #IMPLIED
+              spacebefore CDATA #IMPLIED
+              spaceafter CDATA #IMPLIED
+              leftindent CDATA #IMPLIED
+              rightindent CDATA #IMPLIED
+              color CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              fontname CDATA #IMPLIED
+              fontsize CDATA #IMPLIED
+              ul ( false | true ) "false"
+              bo ( false | true ) "false"
+              it ( false | true ) "false">
+
+<!ELEMENT br EMPTY>
+
+<!ELEMENT style (#PCDATA)>
+<!ATTLIST style color CDATA #IMPLIED
+              stylename CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              fontname CDATA #IMPLIED
+              fontsize CDATA #IMPLIED
+              ul ( false | true ) "false"
+              bo ( false | true ) "false"
+              it ( false | true ) "false">
+              
+<!ELEMENT image (imgmap?)>
+<!ATTLIST image id CDATA #IMPLIED
+              align ( top | bottom | left | right | middle ) #IMPLIED
+              alt CDATA #IMPLIED
+              width CDATA #IMPLIED
+              height CDATA #IMPLIED
+              border-color CDATA #IMPLIED
+              border-size CDATA #IMPLIED
+              scale CDATA #IMPLIED
+              browserviewfull ( false | true ) "false"
+              scaleratiobrowse CDATA #IMPLIED
+              scaleratioprint CDATA #IMPLIED>
+              
+<!ELEMENT imgmap (imgmaparea*)>
+
+<!ELEMENT imgmaparea (image*, url*, file*, audio*, video*, select*)>
+<!ATTLIST imgmaparea shape ( rect | circ | poly ) #IMPLIED
+              title CDATA #IMPLIED
+              coords CDATA #IMPLIED>
+
+<!ELEMENT select (style | image)>
+<!ATTLIST select type ( I | M ) #REQUIRED
+              key CDATA #REQUIRED
+              actiontype ( newwindow | currentwindow | currentpane | currentfolder | dropdown | popup | block | expand ) #IMPLIED
+              containername CDATA #IMPLIED
+              targetpath CDATA #IMPLIED
+              bookmark CDATA #IMPLIED
+              viewpdf ( false | true ) "false"
+              viewtype ( same | html | pdf ) "same"
+              browserbars ( false | true ) "true"
+              linktextupdateble ( false | true ) "true"
+              hpos ( left | right | center | value ) #IMPLIED
+              hposv CDATA #IMPLIED
+              vpos ( top | bottom | center | value ) #IMPLIED
+              vposv CDATA #IMPLIED
+              height CDATA #FIXED "max"
+              heightv CDATA #IMPLIED
+              width CDATA #FIXED "max"
+              widthv CDATA #IMPLIED
+              border-color CDATA #IMPLIED
+              border-size CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              background-image CDATA #IMPLIED
+              background-image-hpos ( left | right | center | value ) "center"
+              background-image-hposv CDATA #IMPLIED
+              background-image-vpos ( top | bottom | center | value ) "center"
+              background-image-vposv CDATA #IMPLIED
+              background-image-repeat ( no | yes | vertical | horizontal ) "no"
+              background-image-color CDATA #IMPLIED
+              margin-top CDATA #IMPLIED
+              margin-bottom CDATA #IMPLIED
+              margin-left CDATA #IMPLIED
+              margin-right CDATA #IMPLIED
+              padding-top CDATA #IMPLIED
+              padding-bottom CDATA #IMPLIED
+              padding-left CDATA #IMPLIED
+              padding-right CDATA #IMPLIED
+              activation ( autostart | linkimage | linktext ) "linktext">
+              
+              
+<!ELEMENT hotspot EMPTY>
+<!ATTLIST hotspot tag ( start | end ) #IMPLIED
+              id CDATA #IMPLIED
+              type ( expand  | dropdown  | popup ) "expand"
+              width CDATA #IMPLIED
+              height CDATA #IMPLIED
+              border-color CDATA #IMPLIED
+              border-size CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              background-image CDATA #IMPLIED
+              background-image-hpos ( left | right | center | value ) "center"
+              background-image-hposv CDATA #IMPLIED
+              background-image-vpos ( top | bottom | center | value ) "center"
+              background-image-vposv CDATA #IMPLIED
+              background-image-repeat ( no | yes | vertical | horizontal ) "no"
+              background-image-color CDATA #IMPLIED
+              margin-top CDATA #IMPLIED
+              margin-bottom CDATA #IMPLIED
+              margin-left CDATA #IMPLIED
+              margin-right CDATA #IMPLIED
+              padding-top CDATA #IMPLIED
+              padding-bottom CDATA #IMPLIED
+              padding-left CDATA #IMPLIED
+              padding-right CDATA #IMPLIED>
+              
+<!ELEMENT hotspotinfo (data)>
+
+<!ELEMENT bookmark (style*, image*, hotspotinfo)>
+<!ATTLIST bookmark tag ( start | end ) #IMPLIED
+              id CDATA #REQUIRED>
+              
+<!ELEMENT searchlauncher EMPTY>
+<!ATTLIST searchlauncher invoketext CDATA #REQUIRED
+              styleinvoke CDATA #REQUIRED
+              styleentryfield CDATA #REQUIRED
+              widthentryfield CDATA #REQUIRED
+              folderkey CDATA #IMPLIED
+              folderpathdes CDATA #IMPLIED>
+              
+<!ELEMENT languagelauncher EMPTY>
+<!ATTLIST languagelauncher styledropdown CDATA #REQUIRED
+              widthdropdown CDATA #REQUIRED
+              heightdropdown CDATA #REQUIRED>
+              
+<!ELEMENT mail (style)>
+<!ATTLIST mail to CDATA #REQUIRED>
+
+<!ELEMENT url (style | image)>
+<!ATTLIST url id CDATA #REQUIRED
+              actiontype ( newwindow | currentpane  | dropdown  | popup  | embedded ) #IMPLIED
+              browserbars ( false | true ) "true"
+              hpos ( left | right | center | value ) #IMPLIED
+              hposv CDATA #IMPLIED
+              vpos ( top | bottom | center | value ) #IMPLIED
+              vposv CDATA #IMPLIED
+              height CDATA #FIXED "max"
+              heightv CDATA #IMPLIED
+              width CDATA #FIXED "max"
+              widthv CDATA #IMPLIED
+              border-color CDATA #IMPLIED
+              border-size CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              background-image CDATA #IMPLIED
+              background-image-hpos ( left | right | center | value ) "center"
+              background-image-hposv CDATA #IMPLIED
+              background-image-vpos ( top | bottom | center | value ) "center"
+              background-image-vposv CDATA #IMPLIED
+              background-image-repeat ( no | yes | vertical | horizontal ) "no"
+              background-image-color CDATA #IMPLIED
+              margin-top CDATA #IMPLIED
+              margin-bottom CDATA #IMPLIED
+              margin-left CDATA #IMPLIED
+              margin-right CDATA #IMPLIED
+              padding-top CDATA #IMPLIED
+              padding-bottom CDATA #IMPLIED
+              padding-left CDATA #IMPLIED
+              padding-right CDATA #IMPLIED
+              activation ( autostart | linkimage | linktext ) "linktext">
+              
+<!ELEMENT file (style | image)>
+<!ATTLIST file id CDATA #IMPLIED
+              actiontype ( newwindow | currentpane  | dropdown  | popup  | embedded  | download ) #IMPLIED
+              hpos ( left | right | center | value ) #IMPLIED
+              hposv CDATA #IMPLIED
+              vpos ( top | bottom | center | value ) #IMPLIED
+              vposv CDATA #IMPLIED
+              height CDATA #FIXED "max"
+              heightv CDATA #IMPLIED
+              width CDATA #FIXED "max"
+              widthv CDATA #IMPLIED
+              border-color CDATA #IMPLIED
+              border-size CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              background-image CDATA #IMPLIED
+              background-image-hpos ( left | right | center | value ) "center"
+              background-image-hposv CDATA #IMPLIED
+              background-image-vpos ( top | bottom | center | value ) "center"
+              background-image-vposv CDATA #IMPLIED
+              background-image-repeat ( no | yes | vertical | horizontal ) "no"
+              background-image-color CDATA #IMPLIED
+              margin-top CDATA #IMPLIED
+              margin-bottom CDATA #IMPLIED
+              margin-left CDATA #IMPLIED
+              margin-right CDATA #IMPLIED
+              padding-top CDATA #IMPLIED
+              padding-bottom CDATA #IMPLIED
+              padding-left CDATA #IMPLIED
+              padding-right CDATA #IMPLIED
+              activation ( autostart | linkimage | linktext ) "linktext">
+              
+<!ELEMENT video (style | image)>
+<!ATTLIST video id CDATA #IMPLIED
+              actiontype ( newwindow | currentpane  | dropdown  | popup  | embedded ) #IMPLIED
+              autoplay ( false | true ) "false"
+              loop ( false | true ) "false"
+              height CDATA #IMPLIED
+              width CDATA #IMPLIED
+              border-color CDATA #IMPLIED
+              border-size CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              background-image CDATA #IMPLIED
+              background-image-hpos ( left | right | center | value ) "center"
+              background-image-hposv CDATA #IMPLIED
+              background-image-vpos ( top | bottom | center | value ) "center"
+              background-image-vposv CDATA #IMPLIED
+              background-image-repeat ( no | yes | vertical | horizontal ) "no"
+              background-image-color CDATA #IMPLIED
+              margin-top CDATA #IMPLIED
+              margin-bottom CDATA #IMPLIED
+              margin-left CDATA #IMPLIED
+              margin-right CDATA #IMPLIED
+              padding-top CDATA #IMPLIED
+              padding-bottom CDATA #IMPLIED
+              padding-left CDATA #IMPLIED
+              padding-right CDATA #IMPLIED
+              activation ( autostart | linkimage | linktext ) "linktext">
+              
+<!ELEMENT audio (style | image)>
+<!ATTLIST audio id CDATA #IMPLIED
+              actiontype ( newwindow | currentpane  | dropdown  | popup  | embedded ) #IMPLIED
+              autoplay ( false | true ) "false"
+              loop ( false | true ) "false"
+              border-color CDATA #IMPLIED
+              border-size CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              background-image CDATA #IMPLIED
+              background-image-hpos ( left | right | center | value ) "center"
+              background-image-hposv CDATA #IMPLIED
+              background-image-vpos ( top | bottom | center | value ) "center"
+              background-image-vposv CDATA #IMPLIED
+              background-image-repeat ( no | yes | vertical | horizontal ) "no"
+              background-image-color CDATA #IMPLIED
+              margin-top CDATA #IMPLIED
+              margin-bottom CDATA #IMPLIED
+              margin-left CDATA #IMPLIED
+              margin-right CDATA #IMPLIED
+              padding-top CDATA #IMPLIED
+              padding-bottom CDATA #IMPLIED
+              padding-left CDATA #IMPLIED
+              padding-right CDATA #IMPLIED
+              activation ( autostart | linkimage | linktext ) "linktext">
+              
+<!ELEMENT line EMPTY>
+<!ATTLIST line fill ( false | true ) "false"
+              width CDATA #IMPLIED
+              height CDATA #IMPLIED
+              color CDATA #IMPLIED>
+              
+<!ELEMENT action EMPTY>
+<!ATTLIST action exec ( pageskip ) #IMPLIED>
+              
+<!ELEMENT exit EMPTY>
+<!ATTLIST exit id CDATA #REQUIRED
+              parm CDATA #REQUIRED
+              stylename CDATA #IMPLIED
+              color CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              fontname CDATA #IMPLIED
+              fontsize CDATA #IMPLIED
+              ul ( false | true ) "false"
+              bo ( false | true ) "false"
+              it ( false | true ) "false">
+              
+<!ELEMENT table (colgroup, tr*)>
+<!ATTLIST table border-size CDATA #IMPLIED
+              border-color CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              background-image CDATA #IMPLIED
+              background-image-hpos ( left | right | center | value ) "center"
+              background-image-hposv CDATA #IMPLIED
+              background-image-vpos ( top | bottom | center | value ) "center"
+              background-image-vposv CDATA #IMPLIED
+              background-image-repeat ( no | yes | vertical | horizontal ) "no"
+              background-image-color CDATA #IMPLIED
+              valign ( top | bottom | middle ) #IMPLIED
+              cellspacing CDATA #IMPLIED
+              frame ( border | above | below | left | right | hsides | vsides | void ) #IMPLIED
+              rules ( all | rows | cols | none ) #IMPLIED>
+              
+<!ELEMENT colgroup (col*)>
+
+<!ELEMENT col EMPTY>
+<!ATTLIST col width CDATA #IMPLIED>
+
+<!ELEMENT tr (td*)>
+
+<!ELEMENT td (data)>
+<!ATTLIST td  border ( true | false ) #IMPLIED
+              border-color CDATA #IMPLIED
+              background-color CDATA #IMPLIED
+              background-image CDATA #IMPLIED
+              background-image-hpos ( left | right | center | value ) "center"
+              background-image-hposv CDATA #IMPLIED
+              background-image-vpos ( top | bottom | center | value ) "center"
+              background-image-vposv CDATA #IMPLIED
+              background-image-repeat ( no | yes | vertical | horizontal ) "no"
+              background-image-color CDATA #IMPLIED
+              colspan CDATA #IMPLIED
+              rowspan CDATA #IMPLIED
+              padding-top CDATA #IMPLIED
+              padding-bottom CDATA #IMPLIED
+              padding-left CDATA #IMPLIED
+              padding-right CDATA #IMPLIED
+              align ( left | right | center ) #IMPLIED
+              valign ( top | bottom | middle ) #IMPLIED>
+              

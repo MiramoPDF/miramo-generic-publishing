@@ -1,0 +1,1967 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE helpserver_display PUBLIC "-//4ST//DTD HelpServer display 01//EN" "helpserver_display.dtd">
+
+<helpserver_display>
+  <head>
+     <unittypes>
+      <unittype id="G">General</unittype>
+    </unittypes>
+
+  </head>
+  <folder key="BOOK    13795967172060">
+    <title>LST6100 Broadcast Satellite Modem</title>
+    <lines>
+      <topic key="BT1368015565427" pointername="copyright">
+        <title>Copyright</title>
+        <units>
+          <unit type="G">
+            <data>
+              <par style="Body Text">
+                © March 11, 2022
+              </par>
+              <par style="Body Text">
+                The material contained in this document is confidential and intended for use only by parties authorized by LogoSat Cy N.V.
+              </par>
+              <par style="Body Text">
+                All Rights Reserved. No part of this document may be photocopied, reproduced, stored in a retrieval system, or transmitted, in any form or by any means whether, electronic, mechanical, or otherwise without the prior written permission of:
+              </par>
+
+              <par style="Body Text">
+                LogoSat Cy N.V.
+              </par>
+              <par style="Body Text">
+                Superstraat 5
+              </par>
+              <par style="Body Text">
+                9100 Sint-Kristoff, Belgium
+              </par>
+              <par style="Body Text">
+                tel: +32 (0)3 999 65 00
+              </par>
+              <par style="Body Text">
+                fax: +32 (0)3 999 65 49<br/><url id="http://www.LogoSat.eu" actiontype="newwindow" activation="linktext">
+                  <style stylename="Url">www.LogoSat.eu</style>
+                </url> <br/><url id="mailto:sales@LogoSat.eu" actiontype="newwindow" activation="linktext">
+                  <style stylename="Url">sales@LogoSat.eu</style>
+                </url>
+              </par>
+
+            </data>
+          </unit>
+        </units>
+      </topic>
+      <folder key="CHAPTER 13649981147582">
+        <title>EU Compliancy Statements</title>
+        <lines>
+          <topic key="BT1369312951175" autostart="true" hidedes="true">
+            <title>To Whom It May Concern</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524971/image004.png" width="36" height="36"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Table bodytext">
+                              To Whom it May Concern.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="BT13649981147583">
+            <title>Radio and Telecommunications Terminal Equipment (R&amp;TTE) 5 Directive 1995/5/EC</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="Body Text">
+                    We,
+                  </par>
+                  <par style="Body Text">
+                    Declare that the following product:
+                  </par>
+                  <par style="ListBul 1">
+                    Product number: LST6100
+                  </par>
+                  <par style="ListBul 1">
+                    Type identifier: NTC/2353
+                  </par>
+                  <par style="Body Text">
+                    to which this declaration relates is in conformity with the essential requirements of European Union Directive 1999/5/EC Radio and Telecommunication Terminal Equipment Directive Essential Requirement 3.1(a), 3.1 (b), 3.2.
+                  </par>
+                  <par style="Body Text">
+                    Done at St-Kristoff, on March 11, 2016
+                  </par>
+                  <par style="Body Text">
+                    <image id="imageFiles/524048/image001.png" width="130" height="91" scale="82"/>
+                  </par>
+                  <par style="Body Text">
+                    Serge Van Herck,
+                  </par>
+                  <par style="Body Text">
+                    CEO
+                  </par>
+                  <par style="Body Text">
+                    LogoSat Cy N.V.
+                  </par>
+                  <par style="Body Text">
+                    Superstraat 5 B-9100 Sint-Kristoff Belgium.
+                  </par>
+                  <par style="Body Text">
+                    Tel: +32 (0)3 999 65 00
+                  </par>
+                  <par style="Body Text">
+                    Fax: +32 (0)3 999 65 49
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="M61378726399990">
+            <title>EMC Information</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="Body Text">
+                    Relevant EMC information (to FCC rules)
+                  </par>
+                  <par style="Body Text">
+                    This equipment has been tested and was found to comply with the limits for a class A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference when the equipment is operated in a commercial environment. This equipment generates, uses and radiates radio frequency energy. If not installed and used in accordance with the instruction manual, it may cause harmful interference to radio communications.
+                  </par>
+                  <par style="Body Text">
+                    Do not operate this equipment in a residential area, as it is likely to cause harmful interference. When this is the case, you will be required to correct the interference at your own expense.
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="BT13649981147585">
+            <title>Restriction of Hazardous Substances Directive (RoHS) (Directive  2011/65/EU)</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="Body Text">
+                    The undersigned hereby confirms the following statement:
+                  </par>
+                  <par style="Body Text">
+                    We hereby declare that this equipment is compliant to the RoHS Directive 2011/65/EU.
+                  </par>
+                  <par style="Body Text">
+                    Done at St-Kristoff, on March 11, 2016
+                  </par>
+                  <par style="Body Text">
+                    <image id="imageFiles/524048/image001.png" width="130" height="91" scale="82"/>
+                  </par>
+                  <par style="Body Text">
+                    Serge Van Herck,
+                  </par>
+                  <par style="Body Text">
+                    CEO
+                  </par>
+                  <par style="Body Text">
+                    LogoSat Cy N.V.
+                  </par>
+                  <par style="Body Text">
+                    Superstraat 5 B-9100 Sint-Kristoff Belgium.
+                  </par>
+                  <par style="Body Text">
+                    Tel: +32 (0)3 999 65 00
+                  </par>
+                  <par style="Body Text">
+                    Fax: +32 (0)3 999 65 49
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="BT13649981147586">
+            <title>Registration, Evaluation and Authorization of Chemicals (REACH)</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="Body Text">
+                    European Regulation N°1907/2006 &quot;REACH&quot; (Registration, Evaluation, and Authorization of Chemicals), came into force on June 1st, 2007. It aims at regulating the use of the chemical substances within the European Union.
+                  </par>
+                  <par style="Body Text">
+                    We are committed to meeting our legal obligations under REACH, as a manufacturer of articles and as a downstream user of chemicals products.
+                  </par>
+                  <par style="Body Text">
+                    In order to comply with the REACH regulation, LogoSat Cy N.V. has put into place processes and procedures to ensure implementation and compliance with the regulation, especially the assessment of the presence of Substances of Very High Concern (SVHC&apos;s) and communication along the supply chain to both suppliers and customers.
+                  </par>
+                  <par style="Body Text">
+                    All products manufactured by LogoSat Cy N.V. fall under the category of Articles within the REACH Regulation and none of them present the notion of intentional release of SVHC&apos;s, therefore no obligation of registration applies.
+                  </par>
+                  <par style="Body Text">
+                    Done at St-Kristoff, on March 11, 2016
+                  </par>
+                  <par style="Body Text">
+                    <image id="imageFiles/524048/image001.png" width="130" height="91" scale="82"/>
+                  </par>
+                  <par style="Body Text">
+                    Serge Van Herck,
+                  </par>
+                  <par style="Body Text">
+                    CEO
+                  </par>
+                  <par style="Body Text">
+                    LogoSat Cy N.V.
+                  </par>
+                  <par style="Body Text">
+                    Superstraat 5 B-9100 Sint-Kristoff Belgium.
+                  </par>
+                  <par style="Body Text">
+                    Tel: +32 (0)3 999 65 00
+                  </par>
+                  <par style="Body Text">
+                    Fax: +32 (0)3 999 65 49
+                  </par>
+                 </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="BT1369748197501">
+            <title>WEEE – Waste Electrical and Electronic Equipment Directive</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par>
+                    The undersigned hereby confirms the following statement:
+                  </par>
+                  <par>
+                    We hereby declare that this equipment is compliant to the WEEE Directive 2012/19/EU.
+                  </par>
+                  <par>
+                    Done at St-Kristoff, on March 11, 2016
+                  </par>
+                  <par>
+                    <image id="imageFiles/524048/image001.png" align="bottom" width="159" height="111"/>
+                  </par>
+                  <par>
+                    Serge Van Herck,
+                  </par>
+                  <par>
+                    CEO
+                  </par>
+                  <par style="Body Text">
+                    LogoSat Cy N.V.
+                  </par>
+                  <par>
+                    Superstraat 5 B-9100 Sint-Kristoff, Belgium.
+                  </par>
+                  <par>
+                    Tel: +32 (0)3 999 65 00
+                  </par>
+                  <par>
+                    Fax: +32 (0)3 999 65 49
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+        </lines>
+      </folder>
+      <folder key="CHAPTER 13649981147587">
+        <title>Safety Regulations</title>
+        <lines>
+          <topic key="BT13649981147588" autostart="true" hidedes="true">
+            <title>Safety Regulations</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="Body Text">
+                    Please read this chapter before you install and use this equipment.
+                  </par>
+                  <par style="Body Text">
+                    To ensure your safety, the equipment has been designed to comply with the following safety standards:
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="1" padding-bottom="1" padding-left="5" padding-right="5">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524042/image005.jpg" align="bottom" width="32" height="45"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par>
+                              Safety of Information Technology Equipment.
+                            </par>
+                            <par style="ListBul 1">
+                              IEC 60950-1:2006/A11:2009/A1:2010/A12:2011
+                            </par>
+                            <par style="ListBul 1">
+                              EN 60950-1:2006/A11:2009/A1:2010/A12:2011
+                            </par>
+                            <par style="ListBul 1">
+                              UL60950-1, Second Edition
+                            </par>
+                            <par style="ListBul 1">
+                              CSA C22.2 N°. 60950-1-07.Second Edition
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                  <par style="Body Text">
+                    Before you start to install and operate the device, please make sure you observe the following points:
+                  </par>
+                  <par style="ListBul 1">
+                    The equipment described in this manual is designed to be used by properly trained personnel only. Only qualified personnel who are aware of hazards involved may adjust, maintain and repair the exposed equipment.
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524248/image007.jpg" width="40" height="34" scale="77"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#F26122" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Table bodytext">
+                              No operator serviceable parts inside. Refer servicing to qualified personnel. <br/>To prevent electrical shock, do not remove covers.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                  <par style="ListBul 1">
+                    To use the equipment correctly and safely, it is essential that both operating and servicing personnel follow generally accepted safety procedures in addition to the safety precautions specified in this manual. Warning and caution statements and/or symbols are marked on the equipment when necessary. Whenever it is likely that safety protection is impaired, immediately switch off the equipment and secure it against unintended operation. Inform the appropriate servicing authority about the problem. For example, safety is likely to be impaired if the equipment fails to perform the intended measurements or shows visible damage.
+                  </par>
+                  <par style="ListBul 1">
+                    The only way to shut down the device is to disconnect the power cable from the power connector. Therefore make sure that the power cable is accessible and not obstructed when the device is operational.For more information please refer to section:  <select type="I" key="BT364999025_100015" actiontype="currentfolder" viewtype="same" activation="linktext">
+                      <style stylename="Link">Power Connector.</style>
+                    </select> <br/>
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="1" padding-bottom="1" padding-left="5" padding-right="5">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524042/image005.jpg" align="bottom" width="32" height="45"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Table bodytext bold">
+                              Additional safety requirements for Finland, Norway and Sweden
+                            </par>
+                            <par style="Table bodytext" align="left">
+                              Telecommunication connections and cable distribution system.
+                            </par>
+                            <par style="Table bodytext" align="left">
+                              Special conditions apply to the use of this equipment in Finland, Sweden and Norway due to different earthing arrangements in these countries. Therefore it is essential that the installation is done by authorized personnel and according to the national requirements only.
+                            </par>
+                            <par style="Table bodytext" align="left">
+                              This equipment is specified for use in a restricted access location only, where equipotential bonding has been applied and which has provision for a permanently connected protective earthing conductor.
+                            </par>
+                            <par style="Table bodytext" align="left">
+                              A protective earthing conductor must be installed by a Service Person.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="1" padding-bottom="1" padding-left="5" padding-right="5">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524042/image005.jpg" align="bottom" width="32" height="45"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Table bodytext bold">
+                              Additional safety requirements for Norway and Sweden
+                            </par>
+                            <par style="Table bodytext">
+                              Equipment connected to the protective earthing of the building installation through the mains connection or through other equipment with a connection to protective earthing - and to a cable distribution system using coaxial cable, may in some circumstances create a fire hazard. Connection to a cable distribution system has therefore to be provided through a device providing electrical isolation below a certain frequency range (galvanic isolator, see EN 60728-11).&quot; NOTE: In Norway, due to regulation for installations of cable distribution systems, and in Sweden, a galvanic isolator shall provide electrical insulation below 5 MHz. The insulation shall withstand a dielectric strength of 1,5 kV r.m.s., 50 Hz or 60 Hz, for 1 min.
+                            </par>
+                            <par style="Table bodytext">
+                              Translation to Norwegian:
+                            </par>
+                            <par style="Table bodytext">
+                              Utstyr som er koplet til beskyttelsesjord via nettplugg og/eller via annet jordtilkoplet utstyr - og er tilkoplet et kabel-TV nett, kan forårsake brannfare. For å unngå dette skal det ved tilkopling av utstyret til kabel-TV nettet installeres en galvanisk isolator mellom utstyret og kabel-TV nettet.
+                            </par>
+                            <par style="Table bodytext">
+                              Translation to Swedish:
+                            </par>
+                            <par style="Table bodytext">
+                              &quot;Utrustning som är kopplad till skyddsjord via jordat vägguttag och/eller via annan utrustning och samtidigt är kopplad till kabel-TV nät kan i vissa fall medfõra risk fõr brand. Fõr att undvika detta skall vid anslutning av utrustningen till kabel-TV nät galvanisk isolator finnas mellan utrustningen och kabel-TV nätet.&quot;
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="BT13649981147589">
+            <title>Environmental</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="Body Text">
+                    Operating the equipment in an environment other than that stated in the specifications also invalidates the safety compliance.
+                  </par>
+                  <par style="Body Text">
+                    Do not use the equipment in an environment in which the unit is exposed to:
+                  </par>
+                  <par style="ListBul 1">
+                    Unpressurized altitudes higher than 2000 meters;
+                  </par>
+                  <par style="ListBul 1">
+                    Extreme temperatures outside the stated operating range operating temperature <br/>range 0 to + 50°C;
+                  </par>
+                  <par style="ListBul 1">
+                    Excessive dust;
+                  </par>
+                  <par style="ListBul 1">
+                    Moist or humid atmosphere above 85% RH;
+                  </par>
+                  <par style="ListBul 1">
+                    Excessive vibration;
+                  </par>
+                  <par style="ListBul 1">
+                    Flammable gases;
+                  </par>
+                  <par style="ListBul 1">
+                    Corrosive or explosive atmospheres;
+                  </par>
+                  <par style="ListBul 1">
+                    Direct sunlight.
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524971/image004.png" width="36" height="36"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Body Text">
+                              Use a slightly damp cloth to clean the casing of the equipment. Do not use any cleaning liquids containing alcohol, methylated spirit or ammonia etc.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+        </lines>
+      </folder>
+      <topic key="M61366272865670">
+        <title>Feedback</title>
+        <units>
+          <unit type="G">
+            <data>
+              <par>
+                LogoSat encourages your comments concerning this document. We are committed to providing documentation that meets your needs .
+              </par>
+              <par>
+                Please send any comments by contacting us at <mail to="documentation@LogoSat.eu"/>.
+              </par>
+              <par>
+                Please include document and any comment, error found or suggestion for improvement you have regarding this document.
+              </par>
+            </data>
+          </unit>
+        </units>
+      </topic>
+      <folder key="CHAPTER 136499811475811">
+        <title>About this Manual</title>
+        <lines>
+          <topic key="BT1368017160360" autostart="true" hidedes="true">
+            <title>About this Manual</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par>
+                    This document is intended to help you to
+                  </par>
+                  <par style="ListBul 1">
+                    Understand the different possibilities of the LST6100 Broadcast Satellite Modem;
+                  </par>
+                  <par style="ListBul 1">
+                    Understand the basic features of the LST6100 Broadcast Satellite Modem;
+                  </par>
+                  <par style="ListBul 1">
+                    Find your way connecting and configuring the LST6100 Broadcast Satellite Modem.
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="BT136499811475813">
+            <title>Cautions and Symbols</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="Body Text">
+                    The following symbols appear in this manual:
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524248/image007.jpg" width="40" height="34" scale="77"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#FBAD18" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Table bodytext">
+                              A caution message indicates a hazardous situation that, if not avoided, may result in minor or moderate injury. It may also refer to a procedure or practice that, if not correctly followed, could result in equipment damage or destruction.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524971/image004.png" width="36" height="36"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Table bodytext">
+                              A hint message indicates information for the proper operation of your equipment, including helpful hints, shortcuts or important reminders.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524042/image005.jpg" align="bottom" width="32" height="45"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Table bodytext">
+                              A reference message is used to direct to a location in a document with related document or a web-link.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="M61365163094945">
+            <title>Version History and Applicability</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par>
+                    <table border-size="1" border-color="#808080" rules="all">
+                      <colgroup>
+                        <col width="150"/>
+                        <col width="102"/>
+                        <col width="136"/>
+                        <col width="218"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="tabel bodytext center bold">
+                              Document Version
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="tabel bodytext center bold">
+                              Date
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="tabel bodytext center bold">
+                              Subject
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="tabel bodytext center bold">
+                              Comment
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par>
+                              1.0
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par>
+                              March 2016
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par>
+                              LST6100 Broadcast Satellite Modem
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par>
+                              Initial version.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+          <topic key="M61366010535437">
+            <title>Related Documentation</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par style="ListBul 1">
+                    The LST6100 Broadcast Satellite Modem Reference Manual describes the parameters available in the device;
+                  </par>
+                  <par style="ListBul 1">
+                    Device leaflet containing the specifications (We refer to <url id="http://www.LogoSat.eu" actiontype="newwindow" activation="linktext">
+                      <style stylename="Url">http://www.LogoSat.eu</style>
+                    </url>);
+                  </par>
+                  <par style="ListBul 1">
+                    The System Integration Guide for LST6100 describes how to integrate the device into a network management environment;
+                  </par>
+                  <par style="Body Text">
+                    <table rules="none">
+                      <colgroup>
+                        <col width="71"/>
+                        <col width="535"/>
+                      </colgroup>
+                      <tr>
+                        <td align="left" valign="middle" background-color="#FFFFFF" padding-top="1" padding-bottom="1" padding-left="5" padding-right="5">
+                          <data>
+                            <par style="table bodytext center">
+                              <image id="imageFiles/524042/image005.jpg" align="bottom" width="32" height="45"/>
+                            </par>
+                          </data>
+                        </td>
+                        <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                          <data>
+                            <par style="Table bodytext">
+                              The related documentation can be found on the CD-ROM that is delivered together with the device.
+                            </par>
+                          </data>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+        </lines>
+      </folder>
+      <folder key="CHAPTER 13795967172061">
+        <title>Introduction</title>
+        <lines>
+          <topic key="M61380706325478">
+            <title>Short Description</title>
+            <units>
+              <unit type="G">
+                <data>
+                  <par>
+                    The LogoSat LST6100 Broadcast Satellite Modem is the next generation DVB-S2 and DVB-S modem specifically designed for broadcast applications. The modem supports the S2 Extensions to achieve barrier-breaking efficiency. This release R2.0 supports multistream demodulation. From release R2.1 onwards, the unit can act as a modulator, demodulator or modem. As a modulator, it is the best fit for broadcast direct-to-home, primary distribution to head-ends and contribution of television and radio content. As a modem or demodulator, it is typically installed in head-ends or at both sides of a contribution link. The LST6100 can be used in conjunction with set-top boxes, professional IRD’s or professional satellite demodulators such as the LogoSat AZ910.
+                  </par>
+                  <par>
+                    <style stylename="Bold">Delivering the Highest Uptime for Vital Links</style>
+                  </par>
+                  <par>
+                    Uptime and reliability are essential in the design of the modem, taking a vital role in the satellite network. Input source redundancy and the shortest redundancy switch-over times of modems, operating both in 1+1 and N+1 topologies, are setting the standard in our industry. Advanced capabilities are built in such as a built-in MPEG Transport Stream analyser, support of SMPTE 2022 FEC at the GbE inputs (for distributed IP headends), and native support of Carrier ID according to the new DVB standard as well as in the transport stream NIT Table. Special care was taken to cope with jittery transport stream over IP inputs. The 6 ASI ports are programmable as inputs or outputs allowing for monitoring as well as operational ASI ports.
+                  </par>
+                  <par>
+                    <style stylename="Bold">Get the Best Performance and Lower your Costs</style>
+                  </par>
+                  <par>
+                    The Broadcast Satellite Modem performs among the best, offering unmatched bandwidth efficiency optimization options, thereby lowering overall Total Cost of Ownership. The fully automated operation of LogoSat´s field-proven Equalink® pre-distortion technology, providing up to 10% bandwidth gains, is now available for any satellite transmission application. Clean Channel TechnologyTM, in combination with S2 Extensions, improve satellite efficiency by up to 15%, thereby enabling much smaller carrier spacing. Maximum symbol rates up to 72 Mbaud and modulations up to 64APSK (S2 extensions) combined with VCM (Variable Coding and Modulation) allow for maximum throughput in large contribution links.The unit allows transmitting and receiving simultaneously up to four transport stream(s) in full compliance with the DVB standards. At the output of the Broadcast Satellite Modem, the signal is available in IF or extended L-band (950 MHz-2150 MHz), providing a compact and cost effective solution. A switchable 10 MHz reference signal and optional 24V or 48V DC for an outdoor BUC is multiplexed on the L-band interface. The input is dual L-band or as an option 70/140MHz and single L-band.
+                  </par>
+                  <par>
+                    The Broadcast Satellite Modem can be easily monitored and controlled via a comprehensive front panel menu, advanced web GUI as well as via SNMP protocol. This enables easy integration into any industry-standard EMS/NMS system.
+                  </par>
+                  <par>
+                    <style stylename="Bold">Evolve Towards Tomorrow&apos;s Technology</style>
+                  </par>
+                  <par>
+                    Built upon flexible and latest generation programmable technology, the LST6100 Broadcast Satellite Modem is a future-proof building block that lets any satellite network evolve to the next level of capabilities. A scalable, pay-as-you-grow, licensing and software upgrade mechanism facilitates the launch of new services, or last minute network design changes, without rebuilding the entire network infrastructure. Migration from ASI to GbE and IF to L-band is facilitated by simple in-field installation of license keys. Migration of standard distribution links towards S2 Extensions can be as simple as inserting a LST6100 modem in the head-ends while keeping the installed base of IRDs.
+                  </par>
+                  <par>
+                    Additional capabilities such as DVB-S2 extensions and others are anticipated to become available on the platform as the standardization efforts materialise in the near future. The brand new DVB-CID carrier identifier is already available as a software option on the LST6100.
+                  </par>
+                </data>
+              </unit>
+            </units>
+          </topic>
+        </lines>
+      </folder>
+      <folder key="CHAPTER 364999025_100003">
+        <title>Physical Description</title>
+        <lines>
+          <folder key="CHAPTER 364999025_100004">
+            <title>Front Panel Description</title>
+            <lines>
+              <topic key="M61366010705474" autostart="true" hidedes="true">
+                <title>Front Panel Description</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        The device can be configured, controlled and monitored using the front panel. The front panel consists out of the following parts.
+                      </par>
+                      <par style="Figure" align="center">
+                        <image id="imageFiles/840520/Frontpanel_buttons.jpg" align="bottom" width="813" height="274" scale="77"/>
+                      </par>
+                      <par>
+                        For more information please refer to section:  How to Use the Front Panel.
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="M61366010906967">
+                <title>Display</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        The display consists of a 32 x 240 pixels LCD screen.
+                      </par>
+                      <par style="ListBul 1">
+                        The top rows indicates the tree menu pane;
+                      </par>
+                      <par style="ListBul 1">
+                        The bottom row indicates the root menu pane.
+                      </par>
+                      <par style="Figure" align="center">
+                        <image id="imageFiles/675663/FrontPanel_Display.jpg" alt="Navigating Through the Display - Generic" width="632" height="97" scale="108"/>
+                      </par>
+                      <par style="Body Header">
+                        Menu Tree
+                      </par>
+                      <par>
+                        The device management model is designed as a menu tree. The menu tree shows the organization of the parameters in the device. The tree is built up out of a root, branches, sub branches and leafs.
+                      </par>
+                      <par style="ListBul 1">
+                        Root: represents the complete device configuration;
+                      </par>
+                      <par style="ListBul 1">
+                        Branch/Sub branch: represents functional blocks that group leafs/parameters that are closely related to one another;
+                      </par>
+                      <par style="ListBul 1">
+                        Leafs: the leafs represent the parameters or commands that are used to perform a configuration.
+                      </par>
+                      <par>
+
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="M61366011583466">
+                <title>Soft Buttons and Navigation Buttons</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        Use the navigation button and soft buttons to navigate through the menu tree.
+                      </par>
+                      <par style="Figure" align="center">
+                        <image id="imageFiles/779161/soft and navigation Buttons.jpg" align="bottom" width="535" height="206" scale="83"/>
+                      </par>
+                      <par style="Figure">
+
+                      </par>
+                      <par style="ListBul 1">
+                        The function of the soft buttons varies depending on the context. Their meaning is defined by the menu pane block setting atop of each button;
+                      </par>
+                      <par style="ListBul 1">
+                        Use the <style stylename="Button">navigation buttons</style> for navigating through the Tree menu pane;
+                      </par>
+                      <par style="ListBul 1">
+                        Use the <style stylename="Button">OK</style> button to confirm a selection;
+                      </par>
+                      <par style="ListBul 1">
+                        Use the <style stylename="Button">ESC</style> button to ignore a selection and to go up in the menu tree.
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="M61366011702552">
+                <title>Front Panel Management Interface</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        <image id="imageFiles/1214344/frontpanel_mgmt_itf_usb.png" align="bottom" width="117" height="181"/>
+                      </par>
+                      <par style="Body Text">
+                        The management interface allows the system administrators to manage the LST6100 Broadcast Satellite Modem and monitor its operation.
+                      </par>
+                      <par style="Body Text">
+                        <table rules="none">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" background-color="#FFFFFF" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524971/image004.png" width="36" height="36"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Note that this interface is disabled by default.
+                                </par>
+                                <par style="Table bodytext">
+                                  This connector has the same function as the management interface(s) <br/>on the back panel.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        The management can also be done by using the GUI, CLI or SNMP. 
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="M61371712713442">
+                <title>USB Interface</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        The USB interface is a flash drive connector for future use.
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="M61365410737144">
+                <title>LED Status Indicators</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <!-- DATAZONE REMOVED BLANK PARAS TO PREVENT APPARENT WIDOWS -->
+                      <par>
+                        <image id="imageFiles/793339/LED_Status_Indicators.jpg" align="bottom" width="632" height="112" scale="70"/>
+                      </par>
+                      <par>
+
+                      </par>
+                      <par>
+                        <table border-size="1" border-color="#999999" rules="all">
+                          <colgroup>
+                            <col width="91"/>
+                            <col width="90"/>
+                            <col width="*"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext bold">
+                                  LED
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext bold">
+                                  LED Color
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext bold">
+                                  Description
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" rowspan="3" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+
+                                </par>
+                                <par style="Figure">
+                                  ACT ALARM
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Red
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  A general device or interface alarm is present on the device.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Yellow
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Alarms other than the general device alarm or interface alarm are present on the device.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Green
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  There are no alarms present on the device.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" rowspan="2" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  MEM ALARM
+                                </par>
+                                <par style="Figure">
+
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Yellow
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  A memorized alarm is present on the device.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Off
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Indicates that all alarms are cleared, no memorized alarm is present on the device.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  TEST
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Off
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Not used.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" rowspan="2" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Tx ON
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Green
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  The device is transmitting.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Off
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  The transmission is disabled.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" rowspan="3" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Rx Lock
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Green
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  The demodulator is locked to the incoming RF Carrier.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Red
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Indicates an interface alarm.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Off
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  The incoming signal is not valid.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" rowspan="3" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  DATA
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Green
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  The input/output data signal is valid.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Red
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par>
+                                  Indicates an Ethernet link failure on the MGMT and/or DATA interface(s).
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  Off
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Figure">
+                                  No input/output interface is enabled.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par>
+
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+            </lines>
+          </folder>
+          <folder key="CHAPTER 364999025_100012" pointername="BackPanel">
+            <title>Back Panel Description</title>
+            <lines>
+              <topic key="M61365415302318" autostart="true" hidedes="true">
+                <title>Back Panel Description</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        The following figure shows the possible connections on the LST6100. The back panel connections available depend on the specific hardware configuration of your device.
+                      </par>
+                      <par style="Body Text">
+                        <table border-size="1" border-color="#808080" rules="all">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524248/image007.jpg" width="40" height="34" scale="77"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#FBAD18" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Body Text">
+                                  The maximum force that may be used to fix the SMA (L-Band monitor OUT) connector is restricted to 1.2Nm!
+                                </par>
+                                <par style="Body Text">
+                                  The maximum force for the other connectors is restricted to 1Nm!
+                                </par>
+                                <par style="Body Text">
+                                  When one of these limits is exceeded, the connectors can be damaged and the correct functioning of the connectors cannot be guaranteed.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text" align="center">
+                        <image id="imageFiles/708709/MDM6100_BackPanel.jpg" align="bottom" width="655" height="479" scale="70"/>
+                      </par>
+                      <par style="Body Text" align="left">
+
+                      </par>
+                      <par style="Body Text" align="left">
+                        <table rules="none">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" background-color="#FFFFFF" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524971/image004.png" width="36" height="36"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  The 10MHz REF out is optional and is selected during ordering. (Ordering number is RO-01.)
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Body Text" align="left">
+
+                      </par>
+                      <par style="Body Text" align="left">
+                        <table rules="none">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" background-color="#FFFFFF" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524971/image004.png" width="36" height="36"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  IF Rx is optional and replaces the L-Band Rx B interface. (Ordering number is IU-01)
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="BT364999025_100015">
+                <title>Power Connector</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        This connector has a protective earthing incorporated.<br/>Insert the mains plug only in a socket that has a protective earth contact.
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        <table rules="none">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524248/image007.jpg" width="40" height="34" scale="77"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#FBAD18" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Any interruption of the protective conductor inside or outside the device causes hazards or electrical shocks.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        <table rules="none">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524248/image007.jpg" width="40" height="34" scale="77"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#FBAD18" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  The only way to shut down the device is to disconnect the power cable from the power connector. Therefore, make sure that the power cable is accessible and not obstructed when the device is operational.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        The power supply has the following specifications: 90-130 &amp; 180-260 Vac, 105 VA, 47-63 Hz.
+                      </par>
+                      <par style="Body Text">
+                        To have power redundancy, a dual power supply can be ordered (ordering nr. PS-01).
+                      </par>
+                      <par style="ListBul 1">
+                        It is advisable to connect the two mains plugs to two different power circuits, so the device remains operational if one of these circuits fails (for example: fuse blown).
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        <table rules="none">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524248/image007.jpg" width="40" height="34" scale="77"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#FBAD18" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  The equipment with redundant power supply has more than one power supply cord. <style stylename="bold">To reduce the risk of electric shock, disconnect two power supply cords before servicing.</style>
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="BT1369222924701">
+                <title>Earth Ground</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par>
+                        On the rear panel of the equipment an earth ground is available.
+                      </par>
+                      <par>
+
+                      </par>
+                      <par>
+                        It is provided to:
+                      </par>
+                      <par style="ListBul 1">
+                        Ensure that all equipment chassis fixed within a rack are at the same technical earth potential. This is done by connecting a wire between the technical earth terminal and a suitable point on the rack.
+                      </par>
+                      <par style="ListBul 1">
+                        Eliminate the migration of stray charges when connecting between equipment.
+                      </par>
+                      <par>
+
+                      </par>
+                      <par style="Body Text">
+                        The following figure shows the position and how to connect the earth ground.
+                      </par>
+                      <par align="center">
+
+                      </par>
+                      <par align="center">
+                        <image id="imageFiles/Default/1370873982729.jpg" alt="Earth Ground" width="731" height="515"/>
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="M61371117233233">
+                <title>Craft Interface</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        The <style stylename="Button">craft </style>interface is a SUBD 9 pin connector interface that can be used to manage the device using the command line interface (CLI).<br/><br/>It is used to control the device over RS232.
+                      </par>
+                      <par style="Body Text">
+                        The line settings for the craft interface are:
+                      </par>
+                      <par style="ListBul 1">
+                        Speed 115200 baud;
+                      </par>
+                      <par style="ListBul 1">
+                        Eight data bits;
+                      </par>
+                      <par style="ListBul 1">
+                        No parity bit;
+                      </par>
+                      <par style="ListBul 1">
+                        One stop bit.
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        <table rules="none">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" background-color="#FFFFFF" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524971/image004.png" width="36" height="36"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Use the following pin connections to create a crossover cable between the LST6100 Broadcast Satellite Modem and the managing device.
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        <table border-size="1" border-color="#808080" background-color="#C8C8C8" rules="all">
+                          <colgroup>
+                            <col width="54"/>
+                            <col width="90"/>
+                            <col width="*"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext" spacebefore="4" spaceafter="4">
+                                  <style stylename="Bold">Pin</style>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext" spacebefore="4" spaceafter="4">
+                                  <style stylename="Bold">Name</style>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext" spacebefore="4" spaceafter="4">
+                                  <style stylename="Bold">Function</style>
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  1
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par>
+
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Not connected
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  2
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Rx-D
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Receive Data
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  3
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Tx-D
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Transmit Data
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  4
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par>
+
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Not connected
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  5
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  GND
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Shield ground
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  6
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par>
+
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Not connected
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  7
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par>
+
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Not connected
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  8
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par>
+
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Not connected
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  9
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par>
+
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#FFFFFF" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  Not connected
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        The following figure shows the craft interface connection.
+                      </par>
+                      <par style="Figure" align="center">
+                        <image id="imageFiles/144094/image019.png.jpg" align="bottom" alt="RS232 craft terminal" width="629" height="272" scale="68"/>
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+              <topic key="BT364999025_100019">
+                <title>Alarm Interface</title>
+                <units>
+                  <unit type="G">
+                    <data>
+                      <par style="Body Text">
+                        The alarm interface can be used to build up device redundancy switching systems.
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        <table rules="none">
+                          <colgroup>
+                            <col width="71"/>
+                            <col width="535"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="middle" background-color="#FFFFFF" padding-top="5" padding-bottom="5" padding-left="5" padding-right="5">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524971/image004.png" width="36" height="36"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" background-color="#C8C8C8" padding-top="7" padding-bottom="7" padding-left="7" padding-right="7">
+                              <data>
+                                <par style="Table bodytext">
+                                  When using the AZ202 Universal Redundancy Switch it is not mandatory to use alarm contacts. The Universal Redundancy Switch can also gather the alarm status from the different pieces of equipment in the setup over the management interface. 
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Body Text">
+
+                      </par>
+                      <par style="Body Text">
+                        Connect the alarm interfaces. <br/>The contacts are normally closed to insure that an alarm is generated when the alarm cables are removed.
+                      </par>
+                      <par style="Body Text">
+                        Refer to the following figures for the pin layout:
+                      </par>
+                      <par style="Body Text">
+                        <table border-size="1" border-color="#808080" rules="all">
+                          <colgroup>
+                            <col width="303"/>
+                            <col width="303"/>
+                          </colgroup>
+                          <tr>
+                            <td align="left" valign="top" background-color="#C8C8C8" padding-left="0" padding-right="0">
+                              <data>
+                                <par style="tabel bodytext center bold">
+                                  Pin Layout
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="top" background-color="#C8C8C8" padding-left="0" padding-right="0">
+                              <data>
+                                <par style="tabel bodytext center bold">
+                                  Technical Representation of the Pin Layout
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="middle" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/524960/image022.png" width="215" height="81" scale="51"/>
+                                </par>
+                              </data>
+                            </td>
+                            <td align="left" valign="middle" padding-top="0" padding-bottom="0" padding-left="0" padding-right="0">
+                              <data>
+                                <par style="table bodytext center">
+                                  <image id="imageFiles/525166/image024.png" width="176" height="224" scale="51"/>
+                                </par>
+                              </data>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </par>
+                      <par style="Figure">
+
+                      </par>
+                      <par style="Figure">
+                        The following figure shows how to connect the alarm cables in a 1+1 redundancy system.
+                      </par>
+                      <par style="Figure" align="center">
+                        <image id="imageFiles/949447/Alarm_Interface_device_dependant.png" width="575" height="359" scale="82"/>
+                      </par>
+                    </data>
+                  </unit>
+                </units>
+              </topic>
+            </lines>
+          </folder>
+        </lines>
+      </folder>
+</lines>
+  </folder>
+</helpserver_display>
+

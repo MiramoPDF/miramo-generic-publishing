@@ -1,0 +1,10 @@
+*_miramo.xml
+*.backup.*
+*.lck
+*target.pdf
+*.autosave.*
+*.mfdp
+makezip.cmd
+Thumbs.db
+medtronic.pdf
+medtronic_dev.pdf

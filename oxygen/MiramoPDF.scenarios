@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialized xml:space="preserve">
+	<serializableOrderedMap>
+		<entry>
+			<String>scenarios</String>
+			<scenario-array>
+				<antScenario>
+					<field name="additionalAntArgs">
+						<String></String>
+					</field>
+					<field name="buildTarget">
+						<String>build_demo</String>
+					</field>
+					<field name="buildFilePath">
+						<String>${cfd}/../build_demo.xml</String>
+					</field>
+					<field name="ditaParams">
+						<list>
+							<antParameter>
+								<field name="name">
+									<String>mfd</String>
+								</field>
+								<field name="description">
+									<String>Name of Miramo Format Definitions (MFD) template</String>
+								</field>
+								<field name="value">
+									<String>../mmtemplates/template.mfd</String>
+								</field>
+								<field name="defaultValue">
+									<null/>
+								</field>
+								<field name="type">
+									<Integer>5</Integer>
+								</field>
+								<field name="possibleValues">
+									<null/>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<null/>
+								</field>
+							</antParameter>
+							<antParameter>
+								<field name="name">
+									<String>pdfFile</String>
+								</field>
+								<field name="description">
+									<String>PDF output file name</String>
+								</field>
+								<field name="value">
+									<String>example.pdf</String>
+								</field>
+								<field name="defaultValue">
+									<null/>
+								</field>
+								<field name="type">
+									<Integer>5</Integer>
+								</field>
+								<field name="possibleValues">
+									<null/>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<null/>
+								</field>
+							</antParameter>
+							<antParameter>
+								<field name="name">
+									<String>pdfType</String>
+								</field>
+								<field name="description">
+									<String></String>
+								</field>
+								<field name="value">
+									<String>untagged</String>
+								</field>
+								<field name="defaultValue">
+									<null/>
+								</field>
+								<field name="type">
+									<Integer>5</Integer>
+								</field>
+								<field name="possibleValues">
+									<null/>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<null/>
+								</field>
+							</antParameter>
+							<antParameter>
+								<field name="name">
+									<String>showProperties</String>
+								</field>
+								<field name="description">
+									<String>Set to Y to include PDF tooltips (Dev), N otherwise (Prod)</String>
+								</field>
+								<field name="value">
+									<String>N</String>
+								</field>
+								<field name="defaultValue">
+									<String>Y</String>
+								</field>
+								<field name="type">
+									<Integer>5</Integer>
+								</field>
+								<field name="possibleValues">
+									<null/>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<null/>
+								</field>
+							</antParameter>
+						</list>
+					</field>
+					<field name="jvmArgs">
+						<String>-Xmx256m</String>
+					</field>
+					<field name="useCustomJavaHome">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="customJavaHomeDir">
+						<String></String>
+					</field>
+					<field name="useCustomANTHome">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="customANTHomeDir">
+						<String></String>
+					</field>
+					<field name="workingDir">
+						<String>${cfd}</String>
+					</field>
+					<field name="showConsoleAlways">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="advancedOptionsMap">
+						<null/>
+					</field>
+					<field name="name">
+						<String>MiramoPDF - Generic XML publishing</String>
+					</field>
+					<field name="baseURL">
+						<null/>
+					</field>
+					<field name="footerURL">
+						<null/>
+					</field>
+					<field name="fOPMethod">
+						<null/>
+					</field>
+					<field name="fOProcessorName">
+						<null/>
+					</field>
+					<field name="headerURL">
+						<null/>
+					</field>
+					<field name="inputXSLURL">
+						<null/>
+					</field>
+					<field name="inputXMLURL">
+						<null/>
+					</field>
+					<field name="defaultScenario">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="isFOPPerforming">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="type">
+						<String>ANT</String>
+					</field>
+					<field name="saveAs">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="openInBrowser">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="outputResource">
+						<null/>
+					</field>
+					<field name="openOtherLocationInBrowser">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="locationToOpenInBrowserURL">
+						<String>example.pdf</String>
+					</field>
+					<field name="openInEditor">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="showInHTMLPane">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="showInXMLPane">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="showInSVGPane">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="showInResultSetPane">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="useXSLTInput">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="xsltParams">
+						<list/>
+					</field>
+					<field name="cascadingStylesheets">
+						<String-array/>
+					</field>
+					<field name="xslTransformer">
+						<String>ANT</String>
+					</field>
+					<field name="extensionURLs">
+						<String-array>
+							<String>${configured.ditaot.dir.url}/config/</String>
+							<String>${configured.ditaot.dir.url}/lib/*.jar</String>
+						</String-array>
+					</field>
+				</antScenario>
+				<antScenario>
+					<field name="additionalAntArgs">
+						<String></String>
+					</field>
+					<field name="buildTarget">
+						<String>build_demo</String>
+					</field>
+					<field name="buildFilePath">
+						<String>${cfd}/../build_demo.xml</String>
+					</field>
+					<field name="ditaParams">
+						<list>
+							<antParameter>
+								<field name="name">
+									<String>mfd</String>
+								</field>
+								<field name="description">
+									<String>Name of Miramo Format Definitions (MFD) template</String>
+								</field>
+								<field name="value">
+									<String>../mmtemplates/template.mfd</String>
+								</field>
+								<field name="defaultValue">
+									<null/>
+								</field>
+								<field name="type">
+									<Integer>5</Integer>
+								</field>
+								<field name="possibleValues">
+									<null/>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<null/>
+								</field>
+							</antParameter>
+							<antParameter>
+								<field name="name">
+									<String>pdfFile</String>
+								</field>
+								<field name="description">
+									<String>PDF output file name</String>
+								</field>
+								<field name="value">
+									<String>example.pdf</String>
+								</field>
+								<field name="defaultValue">
+									<null/>
+								</field>
+								<field name="type">
+									<Integer>5</Integer>
+								</field>
+								<field name="possibleValues">
+									<null/>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<null/>
+								</field>
+							</antParameter>
+							<antParameter>
+								<field name="name">
+									<String>pdfType</String>
+								</field>
+								<field name="description">
+									<String></String>
+								</field>
+								<field name="value">
+									<String>untagged</String>
+								</field>
+								<field name="defaultValue">
+									<null/>
+								</field>
+								<field name="type">
+									<Integer>5</Integer>
+								</field>
+								<field name="possibleValues">
+									<null/>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<null/>
+								</field>
+							</antParameter>
+							<antParameter>
+								<field name="name">
+									<String>showProperties</String>
+								</field>
+								<field name="description">
+									<String>Set to Y to include PDF tooltips (Dev), N otherwise (Prod)</String>
+								</field>
+								<field name="value">
+									<String>Y</String>
+								</field>
+								<field name="defaultValue">
+									<String>Y</String>
+								</field>
+								<field name="type">
+									<Integer>5</Integer>
+								</field>
+								<field name="possibleValues">
+									<null/>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<null/>
+								</field>
+							</antParameter>
+						</list>
+					</field>
+					<field name="jvmArgs">
+						<String>-Xmx256m</String>
+					</field>
+					<field name="useCustomJavaHome">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="customJavaHomeDir">
+						<String></String>
+					</field>
+					<field name="useCustomANTHome">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="customANTHomeDir">
+						<String></String>
+					</field>
+					<field name="workingDir">
+						<String>${cfd}</String>
+					</field>
+					<field name="showConsoleAlways">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="advancedOptionsMap">
+						<null/>
+					</field>
+					<field name="name">
+						<String>MiramoPDF - Generic XML publishing Dev (with PDF tooltips)</String>
+					</field>
+					<field name="baseURL">
+						<null/>
+					</field>
+					<field name="footerURL">
+						<null/>
+					</field>
+					<field name="fOPMethod">
+						<null/>
+					</field>
+					<field name="fOProcessorName">
+						<null/>
+					</field>
+					<field name="headerURL">
+						<null/>
+					</field>
+					<field name="inputXSLURL">
+						<null/>
+					</field>
+					<field name="inputXMLURL">
+						<null/>
+					</field>
+					<field name="defaultScenario">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="isFOPPerforming">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="type">
+						<String>ANT</String>
+					</field>
+					<field name="saveAs">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="openInBrowser">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="outputResource">
+						<null/>
+					</field>
+					<field name="openOtherLocationInBrowser">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="locationToOpenInBrowserURL">
+						<String>example.pdf</String>
+					</field>
+					<field name="openInEditor">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="showInHTMLPane">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="showInXMLPane">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="showInSVGPane">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="showInResultSetPane">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="useXSLTInput">
+						<Boolean>false</Boolean>
+					</field>
+					<field name="xsltParams">
+						<list/>
+					</field>
+					<field name="cascadingStylesheets">
+						<String-array/>
+					</field>
+					<field name="xslTransformer">
+						<String>ANT</String>
+					</field>
+					<field name="extensionURLs">
+						<String-array>
+							<String>${configured.ditaot.dir.url}/config/</String>
+							<String>${configured.ditaot.dir.url}/lib/*.jar</String>
+						</String-array>
+					</field>
+				</antScenario>
+			</scenario-array>
+		</entry>
+		<entry>
+			<String>scenarios.load.from.project</String>
+			<Boolean>false</Boolean>
+		</entry>
+	</serializableOrderedMap>
+</serialized>

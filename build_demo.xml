@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build_demo" basedir="." default="build_demo" xmlns:if="ant:if" xmlns:foreach="ant:foreach" xmlns:unless="ant:unless">
+	<!-- Initialization: sets defaults for ant build parameters -->
+	<target name="build_demo_init">
+		<!-- Default to showProperties N -->
+		<property name="showProperties" value="N"/>
+		<property name="basename" value="example"/>
+		<property name="workingFolder" value="${basedir}/workingFolder"/>
+		<property name="mfd" value="${basedir}/mmtemplates/template.mfd"/>
+		<property name="xsl" value="${basedir}/xsl/example.xsl"/>
+		<property name="pdfType" value="untagged"/>
+		<condition property="pdfFile" value="${workingFolder}/${basename}_dev.pdf">
+			<equals arg1="${showProperties}" arg2="Y"/>
+		</condition>
+		<condition property="pdfFile" value="${basename}.pdf">
+			<not>
+				<equals arg1="${showProperties}" arg2="Y"/>
+			</not>
+		</condition>
+		<fail message="XML input file ${basename}.xml does not exist in ${workingFolder}">
+			<condition>
+				<not>
+					<available file="${workingFolder}/${basename}.xml"/>
+				</not>
+			</condition>
+		</fail>
+	</target>
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<target name="build_demo" description="Run demo" depends="make_miramoxml,miramoxml2pdf">
+		<echo>Finished! ${pdfFile} has been created</echo>
+	</target>
+	<target name="make_miramoxml" depends="build_demo_init">
+		<echo>Using root XSL stylesheet ${xsl}</echo>
+		<echo>Processing ${basename}.xml ...</echo>
+		<xslt in="${workingFolder}/${basename}.xml" out="${workingFolder}/${basename}_miramo.xml" style="${xsl}">
+	  </xslt>
+		<echo>Finished creating temporary intermediate ${basename}_miramo.xml in ${workingFolder}</echo>
+	</target>
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<target name="miramoxml2pdf" description="render MiramoXML to PDF">
+		<echo>miramoxml2pdf: Rendering MiramoXML to PDF with MiramoComposer and MFD template ${mfd} ... </echo>
+		<echo>miramo -mfd ${mfd} -showProperties ${showProperties} -Opdf "${pdfFile}" "${basename}_miramo.xml"</echo>
+		<exec executable="miramo" dir="${workingFolder}" failonerror="false" resultproperty="exitStatusCode">
+			<arg value="-showProperties"/>
+			<arg value="${showProperties}"/>
+			<arg value="-pdfType"/>
+			<arg value="${pdfType}"/>
+			<arg value="-mfd"/>
+			<arg value="${mfd}"/>
+			<arg value="-Opdf"/>
+			<arg value="${pdfFile}"/>
+			<arg value="${basename}_miramo.xml"/>
+		</exec>
+		<fail message="Could not create PDF file ${pdfFile}, PDF file is locked ... is PDF file open?">
+			<condition>
+				<equals arg1="543" arg2="${exitStatusCode}"/>
+			</condition>
+		</fail>
+		<fail message="Miramo failed to create PDF ${pdfFile} - check messages">
+			<condition>
+				<not>
+					<equals arg1="0" arg2="${exitStatusCode}"/>
+				</not>
+			</condition>
+		</fail>
+	</target>
+</project>
