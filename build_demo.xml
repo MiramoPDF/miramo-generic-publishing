@@ -9,6 +9,9 @@
 		<property name="mfd" value="${basedir}/mmtemplates/template.mfd"/>
 		<property name="xsl" value="${basedir}/xsl/example.xsl"/>
 		<property name="pdfType" value="untagged"/>
+		<!-- Set miramopath to point to miramoRP wrapper script for cloud publishing, default is local publishing -->
+		<property name="miramopath" value="miramo"/>
+		
 		<condition property="pdfFile" value="${workingFolder}/${basename}_dev.pdf">
 			<equals arg1="${showProperties}" arg2="Y"/>
 		</condition>
@@ -33,14 +36,14 @@
 		<echo>Using root XSL stylesheet ${xsl}</echo>
 		<echo>Processing ${basename}.xml ...</echo>
 		<xslt in="${workingFolder}/${basename}.xml" out="${workingFolder}/${basename}_miramo.xml" style="${xsl}">
-	  </xslt>
+		</xslt>
 		<echo>Finished creating temporary intermediate ${basename}_miramo.xml in ${workingFolder}</echo>
 	</target>
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<target name="miramoxml2pdf" description="render MiramoXML to PDF">
 		<echo>miramoxml2pdf: Rendering MiramoXML to PDF with MiramoComposer and MFD template ${mfd} ... </echo>
-		<echo>miramo -mfd ${mfd} -showProperties ${showProperties} -Opdf "${pdfFile}" "${basename}_miramo.xml"</echo>
-		<exec executable="miramo" dir="${workingFolder}" failonerror="false" resultproperty="exitStatusCode">
+		<echo>${miramopath} -mfd ${mfd} -showProperties ${showProperties} -Opdf "${pdfFile}" "${basename}_miramo.xml"</echo>
+		<exec executable="${miramopath}" dir="${workingFolder}" failonerror="false" resultproperty="exitStatusCode">
 			<arg value="-showProperties"/>
 			<arg value="${showProperties}"/>
 			<arg value="-pdfType"/>
@@ -49,6 +52,8 @@
 			<arg value="${mfd}"/>
 			<arg value="-Opdf"/>
 			<arg value="${pdfFile}"/>
+			<arg value="-updateUrlTemplateCache"/>
+			<arg value="Y"/>
 			<arg value="${basename}_miramo.xml"/>
 		</exec>
 		<fail message="Could not create PDF file ${pdfFile}, PDF file is locked ... is PDF file open?">
