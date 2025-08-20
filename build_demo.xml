@@ -10,8 +10,18 @@
 		<property name="xsl" value="${basedir}/xsl/example.xsl"/>
 		<property name="pdfType" value="untagged"/>
 		<!-- Set miramopath to point to miramoRP wrapper script for cloud publishing, default is local publishing -->
-		<property name="miramopath" value="miramo"/>
-		
+		<condition property="miramopath" value="miramo">
+			<not><isset property="hostname"/></not>
+		</condition>
+		<condition property="miramopath" value="../bin/miramoRP.cmd">
+			<isset property="hostname"/>
+		</condition>
+		<condition property="hostname.arg" value="-hostname ${hostname}">
+			<isset property="hostname"/>			
+		</condition>
+		<condition property="hostname.arg" value="">
+			<not><isset property="hostname"/></not>		
+		</condition>
 		<condition property="pdfFile" value="${workingFolder}/${basename}_dev.pdf">
 			<equals arg1="${showProperties}" arg2="Y"/>
 		</condition>
@@ -20,6 +30,7 @@
 				<equals arg1="${showProperties}" arg2="Y"/>
 			</not>
 		</condition>
+		
 		<fail message="XML input file ${basename}.xml does not exist in ${workingFolder}">
 			<condition>
 				<not>
@@ -27,6 +38,7 @@
 				</not>
 			</condition>
 		</fail>
+		<echoproperties/>
 	</target>
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<target name="build_demo" description="Run demo" depends="make_miramoxml,miramoxml2pdf">
@@ -42,8 +54,9 @@
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<target name="miramoxml2pdf" description="render MiramoXML to PDF">
 		<echo>miramoxml2pdf: Rendering MiramoXML to PDF with MiramoComposer and MFD template ${mfd} ... </echo>
-		<echo>${miramopath} -mfd ${mfd} -showProperties ${showProperties} -Opdf "${pdfFile}" "${basename}_miramo.xml"</echo>
+		<echo>${miramopath} ${hostname.arg} -mfd ${mfd} -showProperties ${showProperties} -Opdf "${pdfFile}" -updateUrlTemplateCache Y "${basename}_miramo.xml"</echo>
 		<exec executable="${miramopath}" dir="${workingFolder}" failonerror="false" resultproperty="exitStatusCode">
+			<arg line="${hostname.arg}"/>
 			<arg value="-showProperties"/>
 			<arg value="${showProperties}"/>
 			<arg value="-pdfType"/>
