@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MiramoXML xmlns:mmc="http://www.miramo.com/mmc">
+   <Chapter>
+      <VarDef varDef="vBookName">LST6100 Broadcast Satellite Modem</VarDef>
+      <Section sectionDef="coverSection"/>
+      <Section sectionDef="contentsSection"/>
+      <P paraDef="H1TOC">Table of Contents</P>
+      <Contents contentsDef="contents"/>
+   </Chapter>
+   <Chapter chapterNumberStart="1" pageNumStart="1" startSide="Right">
+      <VarDef varDef="vBookName">LST6100 Broadcast Satellite Modem</VarDef>
+      <Section sectionDef="firstSection"/>
+      <P paraDef="Heading1Auto">
+         <MkDest id="BT1368015565427"/>Copyright</P>
+      <P paraDef="Body Text">
+                © March 11, 2022
+              </P>
+      <P paraDef="Body Text">
+                The material contained in this document is confidential and intended for use only by parties authorized by LogoSat Cy N.V.
+              </P>
+      <P paraDef="Body Text">
+                All Rights Reserved. No part of this document may be photocopied, reproduced, stored in a retrieval system, or transmitted, in any form or by any means whether, electronic, mechanical, or otherwise without the prior written permission of:
+              </P>
+      <P paraDef="Body Text">
+                LogoSat Cy N.V.
+              </P>
+      <P paraDef="Body Text">
+                Superstraat 5
+              </P>
+      <P paraDef="Body Text">
+                9100 Sint-Kristoff, Belgium
+              </P>
+      <P paraDef="Body Text">
+                tel: +32 (0)3 999 65 00
+              </P>
+      <P paraDef="Body Text">
+                fax: +32 (0)3 999 65 49<br/>
+         <Font fontDef="Url">www.LogoSat.eu</Font>
+         <br/>
+         <Font fontDef="Url">sales@LogoSat.eu</Font>
+      </P>
+   </Chapter>
+   <Chapter chapterNumberStart="2">
+      <VarDef varDef="vBookName">LST6100 Broadcast Satellite Modem</VarDef>
+      <Section sectionDef="firstSection"/>
+      <P paraDef="Heading1Auto">
+         <MkDest id="CHAPTER 13649981147582"/>EU Compliancy Statements</P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="5"
+                     leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524971/image004.png" width="36px" height="36px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                              To Whom it May Concern.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Heading2Auto" pgfPosition="normal">
+         <MkDest id="BT13649981147583"/>Radio and Telecommunications Terminal Equipment (R&amp;TTE) 5 Directive 1995/5/EC</P>
+      <P paraDef="Body Text">
+                    We,
+                  </P>
+      <P paraDef="Body Text">
+                    Declare that the following product:
+                  </P>
+      <P paraDef="ListBul 1">
+                    Product number: LST6100
+                  </P>
+      <P paraDef="ListBul 1">
+                    Type identifier: NTC/2353
+                  </P>
+      <P paraDef="Body Text">
+                    to which this declaration relates is in conformity with the essential requirements of European Union Directive 1999/5/EC Radio and Telecommunication Terminal Equipment Directive Essential Requirement 3.1(a), 3.1 (b), 3.2.
+                  </P>
+      <P paraDef="Body Text">
+                    Done at St-Kristoff, on March 11, 2016
+                  </P>
+      <P paraDef="Body Text" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/524048/image001.png"
+                   width="106.6px"
+                   height="74.62px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Text">
+                    Serge Van Herck,
+                  </P>
+      <P paraDef="Body Text">
+                    CEO
+                  </P>
+      <P paraDef="Body Text">
+                    LogoSat Cy N.V.
+                  </P>
+      <P paraDef="Body Text">
+                    Superstraat 5 B-9100 Sint-Kristoff Belgium.
+                  </P>
+      <P paraDef="Body Text">
+                    Tel: +32 (0)3 999 65 00
+                  </P>
+      <P paraDef="Body Text">
+                    Fax: +32 (0)3 999 65 49
+                  </P>
+      <P paraDef="Heading2Auto">
+         <MkDest id="M61378726399990"/>EMC Information</P>
+      <P paraDef="Body Text">
+                    Relevant EMC information (to FCC rules)
+                  </P>
+      <P paraDef="Body Text">
+                    This equipment has been tested and was found to comply with the limits for a class A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference when the equipment is operated in a commercial environment. This equipment generates, uses and radiates radio frequency energy. If not installed and used in accordance with the instruction manual, it may cause harmful interference to radio communications.
+                  </P>
+      <P paraDef="Body Text">
+                    Do not operate this equipment in a residential area, as it is likely to cause harmful interference. When this is the case, you will be required to correct the interference at your own expense.
+                  </P>
+      <P paraDef="Heading2Auto">
+         <MkDest id="BT13649981147585"/>Restriction of Hazardous Substances Directive (RoHS) (Directive  2011/65/EU)</P>
+      <P paraDef="Body Text">
+                    The undersigned hereby confirms the following statement:
+                  </P>
+      <P paraDef="Body Text">
+                    We hereby declare that this equipment is compliant to the RoHS Directive 2011/65/EU.
+                  </P>
+      <P paraDef="Body Text">
+                    Done at St-Kristoff, on March 11, 2016
+                  </P>
+      <P paraDef="Body Text" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/524048/image001.png"
+                   width="106.6px"
+                   height="74.62px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Text">
+                    Serge Van Herck,
+                  </P>
+      <P paraDef="Body Text">
+                    CEO
+                  </P>
+      <P paraDef="Body Text">
+                    LogoSat Cy N.V.
+                  </P>
+      <P paraDef="Body Text">
+                    Superstraat 5 B-9100 Sint-Kristoff Belgium.
+                  </P>
+      <P paraDef="Body Text">
+                    Tel: +32 (0)3 999 65 00
+                  </P>
+      <P paraDef="Body Text">
+                    Fax: +32 (0)3 999 65 49
+                  </P>
+      <P paraDef="Heading2Auto">
+         <MkDest id="BT13649981147586"/>Registration, Evaluation and Authorization of Chemicals (REACH)</P>
+      <P paraDef="Body Text">
+                    European Regulation N°1907/2006 "REACH" (Registration, Evaluation, and Authorization of Chemicals), came into force on June 1st, 2007. It aims at regulating the use of the chemical substances within the European Union.
+                  </P>
+      <P paraDef="Body Text">
+                    We are committed to meeting our legal obligations under REACH, as a manufacturer of articles and as a downstream user of chemicals products.
+                  </P>
+      <P paraDef="Body Text">
+                    In order to comply with the REACH regulation, LogoSat Cy N.V. has put into place processes and procedures to ensure implementation and compliance with the regulation, especially the assessment of the presence of Substances of Very High Concern (SVHC's) and communication along the supply chain to both suppliers and customers.
+                  </P>
+      <P paraDef="Body Text">
+                    All products manufactured by LogoSat Cy N.V. fall under the category of Articles within the REACH Regulation and none of them present the notion of intentional release of SVHC's, therefore no obligation of registration applies.
+                  </P>
+      <P paraDef="Body Text">
+                    Done at St-Kristoff, on March 11, 2016
+                  </P>
+      <P paraDef="Body Text" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/524048/image001.png"
+                   width="106.6px"
+                   height="74.62px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Text">
+                    Serge Van Herck,
+                  </P>
+      <P paraDef="Body Text">
+                    CEO
+                  </P>
+      <P paraDef="Body Text">
+                    LogoSat Cy N.V.
+                  </P>
+      <P paraDef="Body Text">
+                    Superstraat 5 B-9100 Sint-Kristoff Belgium.
+                  </P>
+      <P paraDef="Body Text">
+                    Tel: +32 (0)3 999 65 00
+                  </P>
+      <P paraDef="Body Text">
+                    Fax: +32 (0)3 999 65 49
+                  </P>
+      <P paraDef="Heading2Auto">
+         <MkDest id="BT1369748197501"/>WEEE – Waste Electrical and Electronic Equipment Directive</P>
+      <P paraDef="Body Text">
+                    The undersigned hereby confirms the following statement:
+                  </P>
+      <P paraDef="Body Text">
+                    We hereby declare that this equipment is compliant to the WEEE Directive 2012/19/EU.
+                  </P>
+      <P paraDef="Body Text">
+                    Done at St-Kristoff, on March 11, 2016
+                  </P>
+      <P paraDef="Body Text" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/524048/image001.png" width="159px" height="111px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Text">
+                    Serge Van Herck,
+                  </P>
+      <P paraDef="Body Text">
+                    CEO
+                  </P>
+      <P paraDef="Body Text">
+                    LogoSat Cy N.V.
+                  </P>
+      <P paraDef="Body Text">
+                    Superstraat 5 B-9100 Sint-Kristoff, Belgium.
+                  </P>
+      <P paraDef="Body Text">
+                    Tel: +32 (0)3 999 65 00
+                  </P>
+      <P paraDef="Body Text">
+                    Fax: +32 (0)3 999 65 49
+                  </P>
+   </Chapter>
+   <Chapter chapterNumberStart="3">
+      <VarDef varDef="vBookName">LST6100 Broadcast Satellite Modem</VarDef>
+      <Section sectionDef="firstSection"/>
+      <P paraDef="Heading1Auto">
+         <MkDest id="CHAPTER 13649981147587"/>Safety Regulations</P>
+      <P paraDef="Body Text">
+                    Please read this chapter before you install and use this equipment.
+                  </P>
+      <P paraDef="Body Text">
+                    To ensure your safety, the equipment has been designed to comply with the following safety standards:
+                  </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="1"
+                     leftMargin="1">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524042/image005.jpg" width="32px" height="45px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+                              Safety of Information Technology Equipment.
+                            </P>
+                  <P paraDef="ListBul 1">
+                              IEC 60950-1:2006/A11:2009/A1:2010/A12:2011
+                            </P>
+                  <P paraDef="ListBul 1">
+                              EN 60950-1:2006/A11:2009/A1:2010/A12:2011
+                            </P>
+                  <P paraDef="ListBul 1">
+                              UL60950-1, Second Edition
+                            </P>
+                  <P paraDef="ListBul 1">
+                              CSA C22.2 N°. 60950-1-07.Second Edition
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+                    Before you start to install and operate the device, please make sure you observe the following points:
+                  </P>
+      <P paraDef="ListBul 1">
+                    The equipment described in this manual is designed to be used by properly trained personnel only. Only qualified personnel who are aware of hazards involved may adjust, maintain and repair the exposed equipment.
+                  </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell verticalTextAlign="M" topMargin="5" leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524248/image007.jpg"
+                               width="30.8px"
+                               height="26.18px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#F26122)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                              No operator serviceable parts inside. Refer servicing to qualified personnel. <br/>To prevent electrical shock, do not remove covers.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="ListBul 1">
+                    To use the equipment correctly and safely, it is essential that both operating and servicing personnel follow generally accepted safety procedures in addition to the safety precautions specified in this manual. Warning and caution statements and/or symbols are marked on the equipment when necessary. Whenever it is likely that safety protection is impaired, immediately switch off the equipment and secure it against unintended operation. Inform the appropriate servicing authority about the problem. For example, safety is likely to be impaired if the equipment fails to perform the intended measurements or shows visible damage.
+                  </P>
+      <P paraDef="ListBul 1">
+                    The only way to shut down the device is to disconnect the power cable from the power connector. Therefore make sure that the power cable is accessible and not obstructed when the device is operational.For more information please refer to section:  <Font fontDef="Link">Power Connector.<XRef xRefDef="onPage" id="BT364999025_100015"/>
+         </Font>
+         <br/>
+      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="1"
+                     leftMargin="1">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524042/image005.jpg" width="32px" height="45px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext bold">
+                              Additional safety requirements for Finland, Norway and Sweden
+                            </P>
+                  <P paraDef="Table bodytext">
+                              Telecommunication connections and cable distribution system.
+                            </P>
+                  <P paraDef="Table bodytext">
+                              Special conditions apply to the use of this equipment in Finland, Sweden and Norway due to different earthing arrangements in these countries. Therefore it is essential that the installation is done by authorized personnel and according to the national requirements only.
+                            </P>
+                  <P paraDef="Table bodytext">
+                              This equipment is specified for use in a restricted access location only, where equipotential bonding has been applied and which has provision for a permanently connected protective earthing conductor.
+                            </P>
+                  <P paraDef="Table bodytext">
+                              A protective earthing conductor must be installed by a Service Person.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="1"
+                     leftMargin="1">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524042/image005.jpg" width="32px" height="45px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext bold">
+                              Additional safety requirements for Norway and Sweden
+                            </P>
+                  <P paraDef="Table bodytext">
+                              Equipment connected to the protective earthing of the building installation through the mains connection or through other equipment with a connection to protective earthing - and to a cable distribution system using coaxial cable, may in some circumstances create a fire hazard. Connection to a cable distribution system has therefore to be provided through a device providing electrical isolation below a certain frequency range (galvanic isolator, see EN 60728-11)." NOTE: In Norway, due to regulation for installations of cable distribution systems, and in Sweden, a galvanic isolator shall provide electrical insulation below 5 MHz. The insulation shall withstand a dielectric strength of 1,5 kV r.m.s., 50 Hz or 60 Hz, for 1 min.
+                            </P>
+                  <P paraDef="Table bodytext">
+                              Translation to Norwegian:
+                            </P>
+                  <P paraDef="Table bodytext">
+                              Utstyr som er koplet til beskyttelsesjord via nettplugg og/eller via annet jordtilkoplet utstyr - og er tilkoplet et kabel-TV nett, kan forårsake brannfare. For å unngå dette skal det ved tilkopling av utstyret til kabel-TV nettet installeres en galvanisk isolator mellom utstyret og kabel-TV nettet.
+                            </P>
+                  <P paraDef="Table bodytext">
+                              Translation to Swedish:
+                            </P>
+                  <P paraDef="Table bodytext">
+                              "Utrustning som är kopplad till skyddsjord via jordat vägguttag och/eller via annan utrustning och samtidigt är kopplad till kabel-TV nät kan i vissa fall medfõra risk fõr brand. Fõr att undvika detta skall vid anslutning av utrustningen till kabel-TV nät galvanisk isolator finnas mellan utrustningen och kabel-TV nätet."
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Heading2Auto" pgfPosition="normal">
+         <MkDest id="BT13649981147589"/>Environmental</P>
+      <P paraDef="Body Text">
+                    Operating the equipment in an environment other than that stated in the specifications also invalidates the safety compliance.
+                  </P>
+      <P paraDef="Body Text">
+                    Do not use the equipment in an environment in which the unit is exposed to:
+                  </P>
+      <P paraDef="ListBul 1">
+                    Unpressurized altitudes higher than 2000 meters;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Extreme temperatures outside the stated operating range operating temperature <br/>range 0 to + 50°C;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Excessive dust;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Moist or humid atmosphere above 85% RH;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Excessive vibration;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Flammable gases;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Corrosive or explosive atmospheres;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Direct sunlight.
+                  </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="5"
+                     leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524971/image004.png" width="36px" height="36px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+                              Use a slightly damp cloth to clean the casing of the equipment. Do not use any cleaning liquids containing alcohol, methylated spirit or ammonia etc.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+   </Chapter>
+   <Chapter chapterNumberStart="4">
+      <VarDef varDef="vBookName">LST6100 Broadcast Satellite Modem</VarDef>
+      <Section sectionDef="firstSection"/>
+      <P paraDef="Heading1Auto">
+         <MkDest id="M61366272865670"/>Feedback</P>
+      <P paraDef="Body Text">
+                LogoSat encourages your comments concerning this document. We are committed to providing documentation that meets your needs .
+              </P>
+      <P paraDef="Body Text">
+                Please send any comments by contacting us at .
+              </P>
+      <P paraDef="Body Text">
+                Please include document and any comment, error found or suggestion for improvement you have regarding this document.
+              </P>
+   </Chapter>
+   <Chapter chapterNumberStart="5">
+      <VarDef varDef="vBookName">LST6100 Broadcast Satellite Modem</VarDef>
+      <Section sectionDef="firstSection"/>
+      <P paraDef="Heading1Auto">
+         <MkDest id="CHAPTER 136499811475811"/>About this Manual</P>
+      <P paraDef="Body Text">
+                    This document is intended to help you to
+                  </P>
+      <P paraDef="ListBul 1">
+                    Understand the different possibilities of the LST6100 Broadcast Satellite Modem;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Understand the basic features of the LST6100 Broadcast Satellite Modem;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Find your way connecting and configuring the LST6100 Broadcast Satellite Modem.
+                  </P>
+      <P paraDef="Heading2Auto" pgfPosition="normal">
+         <MkDest id="BT136499811475813"/>Cautions and Symbols</P>
+      <P paraDef="Body Text">
+                    The following symbols appear in this manual:
+                  </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524248/image007.jpg"
+                               width="30.8px"
+                               height="26.18px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#FBAD18)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                              A caution message indicates a hazardous situation that, if not avoided, may result in minor or moderate injury. It may also refer to a procedure or practice that, if not correctly followed, could result in equipment damage or destruction.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524971/image004.png" width="36px" height="36px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                              A hint message indicates information for the proper operation of your equipment, including helpful hints, shortcuts or important reminders.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524042/image005.jpg" width="32px" height="45px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                              A reference message is used to direct to a location in a document with related document or a web-link.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Heading2Auto">
+         <MkDest id="M61365163094945"/>Version History and Applicability</P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="all"
+              tblWidth="column"
+              leftRule="#808080"
+              rightRule="#808080"
+              topRule="#808080"
+              bottomRule="#808080">
+            <TblColumn width="108.89999999999999pt"/>
+            <TblColumn width="74.05199999999999pt"/>
+            <TblColumn width="98.73599999999999pt"/>
+            <TblColumn width="158.268pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="tabel bodytext center bold">
+                              Document Version
+                            </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="tabel bodytext center bold">
+                              Date
+                            </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="tabel bodytext center bold">
+                              Subject
+                            </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="tabel bodytext center bold">
+                              Comment
+                            </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Body Text">
+                              1.0
+                            </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Body Text">
+                              March 2016
+                            </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Body Text">
+                              LST6100 Broadcast Satellite Modem
+                            </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Body Text">
+                              Initial version.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Heading2Auto">
+         <MkDest id="M61366010535437"/>Related Documentation</P>
+      <P paraDef="ListBul 1">
+                    The LST6100 Broadcast Satellite Modem Reference Manual describes the parameters available in the device;
+                  </P>
+      <P paraDef="ListBul 1">
+                    Device leaflet containing the specifications (We refer to <Font fontDef="Url">http://www.LogoSat.eu</Font>);
+                  </P>
+      <P paraDef="ListBul 1">
+                    The System Integration Guide for LST6100 describes how to integrate the device into a network management environment;
+                  </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="1"
+                     leftMargin="1">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524042/image005.jpg" width="32px" height="45px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                              The related documentation can be found on the CD-ROM that is delivered together with the device.
+                            </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+   </Chapter>
+   <Chapter chapterNumberStart="6">
+      <VarDef varDef="vBookName">LST6100 Broadcast Satellite Modem</VarDef>
+      <Section sectionDef="firstSection"/>
+      <P paraDef="Heading1Auto">
+         <MkDest id="CHAPTER 13795967172061"/>Introduction</P>
+      <P paraDef="Heading2Auto" pgfPosition="normal">
+         <MkDest id="M61380706325478"/>Short Description</P>
+      <P paraDef="Body Text">
+                    The LogoSat LST6100 Broadcast Satellite Modem is the next generation DVB-S2 and DVB-S modem specifically designed for broadcast applications. The modem supports the S2 Extensions to achieve barrier-breaking efficiency. This release R2.0 supports multistream demodulation. From release R2.1 onwards, the unit can act as a modulator, demodulator or modem. As a modulator, it is the best fit for broadcast direct-to-home, primary distribution to head-ends and contribution of television and radio content. As a modem or demodulator, it is typically installed in head-ends or at both sides of a contribution link. The LST6100 can be used in conjunction with set-top boxes, professional IRD’s or professional satellite demodulators such as the LogoSat AZ910.
+                  </P>
+      <P paraDef="Body Text">
+         <Font fontDef="Bold">Delivering the Highest Uptime for Vital Links</Font>
+      </P>
+      <P paraDef="Body Text">
+                    Uptime and reliability are essential in the design of the modem, taking a vital role in the satellite network. Input source redundancy and the shortest redundancy switch-over times of modems, operating both in 1+1 and N+1 topologies, are setting the standard in our industry. Advanced capabilities are built in such as a built-in MPEG Transport Stream analyser, support of SMPTE 2022 FEC at the GbE inputs (for distributed IP headends), and native support of Carrier ID according to the new DVB standard as well as in the transport stream NIT Table. Special care was taken to cope with jittery transport stream over IP inputs. The 6 ASI ports are programmable as inputs or outputs allowing for monitoring as well as operational ASI ports.
+                  </P>
+      <P paraDef="Body Text">
+         <Font fontDef="Bold">Get the Best Performance and Lower your Costs</Font>
+      </P>
+      <P paraDef="Body Text">
+                    The Broadcast Satellite Modem performs among the best, offering unmatched bandwidth efficiency optimization options, thereby lowering overall Total Cost of Ownership. The fully automated operation of LogoSat´s field-proven Equalink® pre-distortion technology, providing up to 10% bandwidth gains, is now available for any satellite transmission application. Clean Channel TechnologyTM, in combination with S2 Extensions, improve satellite efficiency by up to 15%, thereby enabling much smaller carrier spacing. Maximum symbol rates up to 72 Mbaud and modulations up to 64APSK (S2 extensions) combined with VCM (Variable Coding and Modulation) allow for maximum throughput in large contribution links.The unit allows transmitting and receiving simultaneously up to four transport stream(s) in full compliance with the DVB standards. At the output of the Broadcast Satellite Modem, the signal is available in IF or extended L-band (950 MHz-2150 MHz), providing a compact and cost effective solution. A switchable 10 MHz reference signal and optional 24V or 48V DC for an outdoor BUC is multiplexed on the L-band interface. The input is dual L-band or as an option 70/140MHz and single L-band.
+                  </P>
+      <P paraDef="Body Text">
+                    The Broadcast Satellite Modem can be easily monitored and controlled via a comprehensive front panel menu, advanced web GUI as well as via SNMP protocol. This enables easy integration into any industry-standard EMS/NMS system.
+                  </P>
+      <P paraDef="Body Text">
+         <Font fontDef="Bold">Evolve Towards Tomorrow's Technology</Font>
+      </P>
+      <P paraDef="Body Text">
+                    Built upon flexible and latest generation programmable technology, the LST6100 Broadcast Satellite Modem is a future-proof building block that lets any satellite network evolve to the next level of capabilities. A scalable, pay-as-you-grow, licensing and software upgrade mechanism facilitates the launch of new services, or last minute network design changes, without rebuilding the entire network infrastructure. Migration from ASI to GbE and IF to L-band is facilitated by simple in-field installation of license keys. Migration of standard distribution links towards S2 Extensions can be as simple as inserting a LST6100 modem in the head-ends while keeping the installed base of IRDs.
+                  </P>
+      <P paraDef="Body Text">
+                    Additional capabilities such as DVB-S2 extensions and others are anticipated to become available on the platform as the standardization efforts materialise in the near future. The brand new DVB-CID carrier identifier is already available as a software option on the LST6100.
+                  </P>
+   </Chapter>
+   <Chapter chapterNumberStart="7">
+      <VarDef varDef="vBookName">LST6100 Broadcast Satellite Modem</VarDef>
+      <Section sectionDef="firstSection"/>
+      <P paraDef="Heading1Auto">
+         <MkDest id="CHAPTER 364999025_100003"/>Physical Description</P>
+      <P paraDef="Heading2Auto" pgfPosition="normal">
+         <MkDest id="CHAPTER 364999025_100004"/>Front Panel Description</P>
+      <P paraDef="Body Text">
+                        The device can be configured, controlled and monitored using the front panel. The front panel consists out of the following parts.
+                      </P>
+      <P paraDef="Figure" align="center" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/840520/Frontpanel_buttons.jpg"
+                   width="626.01px"
+                   height="210.98px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Text">
+                        For more information please refer to section:  How to Use the Front Panel.
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="M61366010906967"/>Display</P>
+      <P paraDef="Body Text">
+                        The display consists of a 32 x 240 pixels LCD screen.
+                      </P>
+      <P paraDef="ListBul 1">
+                        The top rows indicates the tree menu pane;
+                      </P>
+      <P paraDef="ListBul 1">
+                        The bottom row indicates the root menu pane.
+                      </P>
+      <P paraDef="Figure" align="center" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/675663/FrontPanel_Display.jpg"
+                   width="682.56px"
+                   height="104.76px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Header">
+                        Menu Tree
+                      </P>
+      <P paraDef="Body Text">
+                        The device management model is designed as a menu tree. The menu tree shows the organization of the parameters in the device. The tree is built up out of a root, branches, sub branches and leafs.
+                      </P>
+      <P paraDef="ListBul 1">
+                        Root: represents the complete device configuration;
+                      </P>
+      <P paraDef="ListBul 1">
+                        Branch/Sub branch: represents functional blocks that group leafs/parameters that are closely related to one another;
+                      </P>
+      <P paraDef="ListBul 1">
+                        Leafs: the leafs represent the parameters or commands that are used to perform a configuration.
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="M61366011583466"/>Soft Buttons and Navigation Buttons</P>
+      <P paraDef="Body Text">
+                        Use the navigation button and soft buttons to navigate through the menu tree.
+                      </P>
+      <P paraDef="Figure" align="center" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/779161/soft and navigation Buttons.jpg"
+                   width="444.05px"
+                   height="170.98px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Figure">
+
+                      </P>
+      <P paraDef="ListBul 1">
+                        The function of the soft buttons varies depending on the context. Their meaning is defined by the menu pane block setting atop of each button;
+                      </P>
+      <P paraDef="ListBul 1">
+                        Use the <Font fontDef="Button">navigation buttons</Font> for navigating through the Tree menu pane;
+                      </P>
+      <P paraDef="ListBul 1">
+                        Use the <Font fontDef="Button">OK</Font> button to confirm a selection;
+                      </P>
+      <P paraDef="ListBul 1">
+                        Use the <Font fontDef="Button">ESC</Font> button to ignore a selection and to go up in the menu tree.
+                      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="M61366011702552"/>Front Panel Management Interface</P>
+      <P paraDef="Body Text" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/1214344/frontpanel_mgmt_itf_usb.png"
+                   width="117px"
+                   height="181px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Text">
+                        The management interface allows the system administrators to manage the LST6100 Broadcast Satellite Modem and monitor its operation.
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="5"
+                     leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524971/image004.png" width="36px" height="36px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Note that this interface is disabled by default.
+                                </P>
+                  <P paraDef="Table bodytext">
+                                  This connector has the same function as the management interface(s) <br/>on the back panel.
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+                        The management can also be done by using the GUI, CLI or SNMP. 
+                      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="M61371712713442"/>USB Interface</P>
+      <P paraDef="Body Text">
+                        The USB interface is a flash drive connector for future use.
+                      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="M61365410737144"/>LED Status Indicators</P>
+      <P paraDef="Body Text" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/793339/LED_Status_Indicators.jpg"
+                   width="442.4px"
+                   height="78.4px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="all"
+              tblWidth="column"
+              leftRule="#999999"
+              rightRule="#999999"
+              topRule="#999999"
+              bottomRule="#999999">
+            <TblColumn width="66.066pt"/>
+            <TblColumn width="65.34pt"/>
+            <TblColumn width="1*"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext bold">
+                                  LED
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext bold">
+                                  LED Color
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext bold">
+                                  Description
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7" rowSpan="3">
+                  <P paraDef="Figure">
+
+                                </P>
+                  <P paraDef="Figure">
+                                  ACT ALARM
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Red
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  A general device or interface alarm is present on the device.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Yellow
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Alarms other than the general device alarm or interface alarm are present on the device.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Green
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  There are no alarms present on the device.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7" rowSpan="2">
+                  <P paraDef="Figure">
+                                  MEM ALARM
+                                </P>
+                  <P paraDef="Figure">
+
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Yellow
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  A memorized alarm is present on the device.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Off
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Indicates that all alarms are cleared, no memorized alarm is present on the device.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  TEST
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Off
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Not used.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7" rowSpan="2">
+                  <P paraDef="Figure">
+                                  Tx ON
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Green
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  The device is transmitting.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Off
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  The transmission is disabled.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7" rowSpan="3">
+                  <P paraDef="Figure">
+                                  Rx Lock
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Green
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  The demodulator is locked to the incoming RF Carrier.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Red
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Indicates an interface alarm.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Off
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  The incoming signal is not valid.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7" rowSpan="3">
+                  <P paraDef="Figure">
+                                  DATA
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Green
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  The input/output data signal is valid.
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Red
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Body Text">
+                                  Indicates an Ethernet link failure on the MGMT and/or DATA interface(s).
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  Off
+                                </P>
+               </Cell>
+               <Cell topMargin="7" leftMargin="7">
+                  <P paraDef="Figure">
+                                  No input/output interface is enabled.
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Heading2Auto" pgfPosition="normal">
+         <MkDest id="CHAPTER 364999025_100012"/>Back Panel Description</P>
+      <P paraDef="Body Text">
+                        The following figure shows the possible connections on the LST6100. The back panel connections available depend on the specific hardware configuration of your device.
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="all"
+              tblWidth="column"
+              leftRule="#808080"
+              rightRule="#808080"
+              topRule="#808080"
+              bottomRule="#808080">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell verticalTextAlign="M" topMargin="5" leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524248/image007.jpg"
+                               width="30.8px"
+                               height="26.18px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#FBAD18)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+                                  The maximum force that may be used to fix the SMA (L-Band monitor OUT) connector is restricted to 1.2Nm!
+                                </P>
+                  <P paraDef="Body Text">
+                                  The maximum force for the other connectors is restricted to 1Nm!
+                                </P>
+                  <P paraDef="Body Text">
+                                  When one of these limits is exceeded, the connectors can be damaged and the correct functioning of the connectors cannot be guaranteed.
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text" align="center" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/708709/MDM6100_BackPanel.jpg"
+                   width="458.5px"
+                   height="335.3px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="5"
+                     leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524971/image004.png" width="36px" height="36px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  The 10MHz REF out is optional and is selected during ordering. (Ordering number is RO-01.)
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="5"
+                     leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524971/image004.png" width="36px" height="36px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  IF Rx is optional and replaces the L-Band Rx B interface. (Ordering number is IU-01)
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="BT364999025_100015"/>Power Connector</P>
+      <P paraDef="Body Text">
+                        This connector has a protective earthing incorporated.<br/>Insert the mains plug only in a socket that has a protective earth contact.
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell verticalTextAlign="M" topMargin="5" leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524248/image007.jpg"
+                               width="30.8px"
+                               height="26.18px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#FBAD18)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Any interruption of the protective conductor inside or outside the device causes hazards or electrical shocks.
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell verticalTextAlign="M" topMargin="5" leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524248/image007.jpg"
+                               width="30.8px"
+                               height="26.18px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#FBAD18)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  The only way to shut down the device is to disconnect the power cable from the power connector. Therefore, make sure that the power cable is accessible and not obstructed when the device is operational.
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+                        The power supply has the following specifications: 90-130 &amp; 180-260 Vac, 105 VA, 47-63 Hz.
+                      </P>
+      <P paraDef="Body Text">
+                        To have power redundancy, a dual power supply can be ordered (ordering nr. PS-01).
+                      </P>
+      <P paraDef="ListBul 1">
+                        It is advisable to connect the two mains plugs to two different power circuits, so the device remains operational if one of these circuits fails (for example: fuse blown).
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell verticalTextAlign="M" topMargin="5" leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524248/image007.jpg"
+                               width="30.8px"
+                               height="26.18px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#FBAD18)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  The equipment with redundant power supply has more than one power supply cord. <Font fontDef="bold">To reduce the risk of electric shock, disconnect two power supply cords before servicing.</Font>
+                  </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="BT1369222924701"/>Earth Ground</P>
+      <P paraDef="Body Text">
+                        On the rear panel of the equipment an earth ground is available.
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+                        It is provided to:
+                      </P>
+      <P paraDef="ListBul 1">
+                        Ensure that all equipment chassis fixed within a rack are at the same technical earth potential. This is done by connecting a wire between the technical earth terminal and a suitable point on the rack.
+                      </P>
+      <P paraDef="ListBul 1">
+                        Eliminate the migration of stray charges when connecting between equipment.
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+                        The following figure shows the position and how to connect the earth ground.
+                      </P>
+      <P paraDef="Body Text" align="center">
+
+                      </P>
+      <P paraDef="Body Text" align="center" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/Default/1370873982729.jpg"
+                   width="731px"
+                   height="515px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="M61371117233233"/>Craft Interface</P>
+      <P paraDef="Body Text">
+                        The <Font fontDef="Button">craft </Font>interface is a SUBD 9 pin connector interface that can be used to manage the device using the command line interface (CLI).<br/>
+         <br/>It is used to control the device over RS232.
+                      </P>
+      <P paraDef="Body Text">
+                        The line settings for the craft interface are:
+                      </P>
+      <P paraDef="ListBul 1">
+                        Speed 115200 baud;
+                      </P>
+      <P paraDef="ListBul 1">
+                        Eight data bits;
+                      </P>
+      <P paraDef="ListBul 1">
+                        No parity bit;
+                      </P>
+      <P paraDef="ListBul 1">
+                        One stop bit.
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="5"
+                     leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524971/image004.png" width="36px" height="36px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Use the following pin connections to create a crossover cable between the LST6100 Broadcast Satellite Modem and the managing device.
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="all"
+              tblWidth="column"
+              leftRule="#808080"
+              rightRule="#808080"
+              topRule="#808080"
+              bottomRule="#808080">
+            <TblColumn width="39.204pt"/>
+            <TblColumn width="65.34pt"/>
+            <TblColumn width="1*"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                     <Font fontDef="Bold">Pin</Font>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                     <Font fontDef="Bold">Name</Font>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                     <Font fontDef="Bold">Function</Font>
+                  </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  1
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Not connected
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  2
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Rx-D
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Receive Data
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  3
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Tx-D
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Transmit Data
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  4
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Not connected
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  5
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  GND
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Shield ground
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  6
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Not connected
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  7
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Not connected
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  8
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Not connected
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  9
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Body Text">
+
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  Not connected
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+                        The following figure shows the craft interface connection.
+                      </P>
+      <P paraDef="Figure" align="center" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/144094/image019.png.jpg"
+                   width="427.72px"
+                   height="184.96px"/>
+         </AFrame>
+      </P>
+      <P paraDef="Heading3Auto">
+         <MkDest id="BT364999025_100019"/>Alarm Interface</P>
+      <P paraDef="Body Text">
+                        The alarm interface can be used to build up device redundancy switching systems.
+                      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="none" tblWidth="column">
+            <TblColumn width="51.546pt"/>
+            <TblColumn width="388.40999999999997pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#FFFFFF)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="5"
+                     leftMargin="5">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524971/image004.png" width="36px" height="36px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)"
+                     fillOpacity="100"
+                     verticalTextAlign="M"
+                     topMargin="7"
+                     leftMargin="7">
+                  <P paraDef="Table bodytext">
+                                  When using the AZ202 Universal Redundancy Switch it is not mandatory to use alarm contacts. The Universal Redundancy Switch can also gather the alarm status from the different pieces of equipment in the setup over the management interface. 
+                                </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Body Text">
+
+                      </P>
+      <P paraDef="Body Text">
+                        Connect the alarm interfaces. <br/>The contacts are normally closed to insure that an alarm is generated when the alarm cables are removed.
+                      </P>
+      <P paraDef="Body Text">
+                        Refer to the following figures for the pin layout:
+                      </P>
+      <P paraDef="Body Text">
+         <Tbl tblDef="all"
+              tblWidth="column"
+              leftRule="#808080"
+              rightRule="#808080"
+              topRule="#808080"
+              bottomRule="#808080">
+            <TblColumn width="219.97799999999998pt"/>
+            <TblColumn width="219.97799999999998pt"/>
+            <Row withNext="Y">
+               <Cell fillColor="rgb(#C8C8C8)" fillOpacity="100" leftMargin="">
+                  <P paraDef="tabel bodytext center bold">
+                                  Pin Layout
+                                </P>
+               </Cell>
+               <Cell fillColor="rgb(#C8C8C8)" fillOpacity="100" leftMargin="">
+                  <P paraDef="tabel bodytext center bold">
+                                  Technical Representation of the Pin Layout
+                                </P>
+               </Cell>
+            </Row>
+            <Row>
+               <Cell verticalTextAlign="M" topMargin="0" leftMargin="0">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/524960/image022.png"
+                               width="109.65px"
+                               height="41.31px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+               <Cell verticalTextAlign="M" topMargin="0" leftMargin="0">
+                  <P paraDef="table bodytext center" withPrevious="Y">
+                     <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+                        <Image file="imageFiles/525166/image024.png"
+                               width="89.76px"
+                               height="114.24px"/>
+                     </AFrame>
+                  </P>
+               </Cell>
+            </Row>
+         </Tbl>
+      </P>
+      <P paraDef="Figure">
+
+                      </P>
+      <P paraDef="Figure">
+                        The following figure shows how to connect the alarm cables in a 1+1 redundancy system.
+                      </P>
+      <P paraDef="Figure" align="center" withPrevious="Y">
+         <AFrame wrapContent="Y" align="center" position="below" shrinkToFit="Y">
+            <Image file="imageFiles/949447/Alarm_Interface_device_dependant.png"
+                   width="471.5px"
+                   height="294.38px"/>
+         </AFrame>
+      </P>
+   </Chapter>
+</MiramoXML>

@@ -1,0 +1,65 @@
+<MiramoXML>
+	<P paraDef="Title">SPUTNIK PENCIL - GRAPHITE</P>
+	<ImageDef locationName="productImage" file="./images/fireStopSealant.png"/>
+	<P paraDef="Heading1">APPLICATION and USAGE</P>
+	<P paraDef="Body">Sputnik pencils may be used just as well during space odessys
+as during voyages 20 000 leagues below the surface of the sea even if the
+writing surface is soaked.
+</P>
+	<P paraDef="Heading1">DESCRIPTION</P>
+	<P paraDef="Body">The writing element is manufactured using the purest graphite
+made from seal-wood charcoal and provides endless flexibility, durability and endurance.
+</P>
+	<P paraDef="Bulleted">Graphite purity: 77%</P>
+	<P paraDef="Bulleted">Writing noise level: 8dB</P>
+	<P paraDef="Body">The Sputnik is guarantee for up to 950 km of writing.
+No toxic or other detectable fumes are emitted when using the Sputnik pencil.</P>
+	<P paraDef="Body">SPUTNIK PENCIL conforms with Nordic NS-1322a standard</P>
+	<P paraDef="Body">SPUTNIK PENCIL conforms with EU EIN-09348 (2032) standard</P>
+	<P paraDef="Heading1">INSTRUCTIONS</P>
+	<P paraDef="Body">Ytor måste vara rena och torra.</P>
+	<Tbl tblDef="itemTable" columns="2">
+		<TblTitle fillColor="Green">Specifikation</TblTitle>
+		<Row type="header">
+			<Cell>Miljökodning</Cell>
+			<Cell>Inomhus</Cell>
+		</Row>
+		<Row>
+			<Cell>
+				<P lineSpacingMode="proportional">
+					<AFrame wrapContent="Y" position="inline">
+						<Image file="./images/ceCertSign.png" width="9mm"/>
+					</AFrame>&thinsp;
+	<AFrame wrapContent="Y" position="inline">
+						<Image file="./images/brush.png" width="9mm"/>
+					</AFrame>
+				</P>
+			</Cell>
+			<Cell>...</Cell>
+		</Row>
+	</Tbl>
+	<Tbl tblDef="itemTable">
+		<TblTitle fillColor="Green">Artiklar</TblTitle>
+		<Row type="header">
+			<Cell>Art nr</Cell>
+			<Cell>Färg</Cell>
+			<Cell>Förpackning</Cell>
+			<Cell>Innehåll</Cell>
+		</Row>
+		<Row>
+			<Cell>10001984</Cell>
+			<Cell>Vit</Cell>
+			<Cell>Patron</Cell>
+			<Cell>0,31 L</Cell>
+		</Row>
+		<Row>
+			<Cell>10001985</Cell>
+			<Cell>Vit</Cell>
+			<Cell>Korv</Cell>
+			<Cell>0,6 L</Cell>
+		</Row>
+	</Tbl>
+</MiramoXML>
+
+
+
